@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>TailwindCSS-PostCSS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
+    />
+    <link href="./assets/css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Main Navbar -->
+    <header class="h-14 bg-black flex items-center px-5">
+      <div>
+        <a href="#">
+          <span class="bg-white h-1 w-10 block"></span>
+          <span class="bg-white h-1 w-10 my-1 block"></span>
+          <span class="bg-white h-1 w-10 block"></span>
+        </a>
+      </div>
+      <div class="w-full flex justify-center">
+        <h1 class="text-4xl uppercase text-white font-sans">logo</h1>
+      </div>
+      <div>
+        <a href="#">
+          <i class="fas fa-search text-white text-2xl"></i>
+        </a>
+      </div>
+    </header>
+    <!-- Main Navbar ends -->
+
+    <!-- Sub navbar -->
+    <nav class="w-full flex justify-center">
+      <ul
+        class="xl:w-nav-width lg:w-1/2 md:w-2/3 w-full bg-nav flex justify-evenly pb-3 p-2 md:rounded-b-2xl"
+      >
+        <li>
+          <a
+            href="#"
+            class="uppercase text-white font-workSans font-medium md:text-sm text-xss truncate cursor-pointer"
+            >mexico</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="uppercase text-white font-workSans font-medium md:text-sm text-xss truncate cursor-pointer"
+            >colombia</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="uppercase text-white font-workSans font-medium md:text-sm text-xss truncate cursor-pointer"
+            >peru</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="uppercase text-white font-workSans font-medium md:text-sm text-xss truncate cursor-pointer"
+            >chile</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="uppercase text-white font-workSans font-medium md:text-sm text-xss truncate cursor-pointer"
+            >centroamerica</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="uppercase text-white font-workSans font-medium md:text-sm text-xss truncate cursor-pointer"
+            >rep. deminicana</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!-- Sub navbar ends -->
+
+    <!-- Banner Section -->
+    <section class="my-5">
+      <div class="w-full pt-6 pb-3 mb-3 xl:px-0 px-4">
+        <div class="container mx-auto">
+          <div class="flex items-end">
+            <div class="w-auto mr-3">
+              <h1 class="font-workSans font-bold md:text-5xl text-2xl">
+                Negocios
+              </h1>
+            </div>
+            <div class="flex-1 h-0.5 bg-blue-light mb-3"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container mx-auto">
+        <div class="flex flex-wrap items-start">
+          <div class="xl:w-2/3 lg:w-7/12 w-full md:border-r-2 xl:px-0 px-4">
+            <div class="w-full">
+              <div class="w-full md:pr-4 md:mb-4 mb-2 relative">
+                <div class="absolute inset-0 md:pr-4">
+                  <div class="bg-black opacity-20 w-full h-full"></div>
+                </div>
+                <img
+                  src="https://picsum.photos/seed/picsum/600/400"
+                  alt=""
+                  class="w-full md:block hidden"
+                />
+                <img
+                  src="https://picsum.photos/seed/picsum/600/350"
+                  alt=""
+                  class="w-full md:hidden block"
+                />
+                <div class="text-white absolute bottom-6">
+                  <p
+                    class="font-merriWeather md:text-2xl text-center my-3 font-medium md:w-2/3 w-3/4 mx-auto"
+                  >
+                    ¿Tienes bitcoins? Ahora ya puedes comprar un auto de Tesla
+                    con esta criptomoneda
+                  </p>
+                  <p
+                    class="text-center text-xs font-workSans md:mt-0 mt-4 font-medium"
+                  >
+                    Por Dawn Chmielewski
+                  </p>
+                </div>
+              </div>
+              <div class="w-full pr-3 mb-4">
+                <div class="h-0.5 bg-gray-300 w-full"></div>
+              </div>
+              <div class="w-full lg:flex hidden flex-wrap">
+                <div class="lg:w-1/2 flex flex-wrap lg:border-r">
+                  <div class="w-full flex mb-5">
+                    <div>
+                      <img src="https://picsum.photos/200" alt="" />
+                    </div>
+                    <div class="xl:px-8 px-4">
+                      <p class="font-merriWeather">
+                        Mercedes Bens suspendera produccion...
+                      </p>
+                      <p class="text-xs font-workSans my-3">
+                        Por <span class="font-bold">Staff</span> | marzo 24,
+                        2021
+                      </p>
+                      <p class="font-workSans font-bold text-xs">en Mexico</p>
+                    </div>
+                  </div>
+                  <div class="w-full flex">
+                    <div>
+                      <img src="https://picsum.photos/200" alt="" />
+                    </div>
+                    <div class="xl:px-8 px-4">
+                      <p class="font-merriWeather">
+                        GameStop cierra ultimo trimestre de 2020...
+                      </p>
+                      <p class="text-xs font-workSans my-3">
+                        Por <span class="font-bold">Staff</span> | marzo 24,
+                        2021
+                      </p>
+                      <p class="font-workSans font-bold text-xs">en Mexico</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="lg:w-1/2 flex flex-wrap lg:pl-4">
+                  <div class="w-full flex mb-5">
+                    <div>
+                      <img src="https://picsum.photos/200" alt="" />
+                    </div>
+                    <div class="xl:px-8 px-4">
+                      <p class="font-merriWeather">
+                        Renault fabricara 3 modelos hibridos en Espana
+                      </p>
+                      <p class="text-xs font-workSans my-3">
+                        Por <span class="font-bold">Staff</span> | marzo 24,
+                        2021
+                      </p>
+                      <p class="font-workSans font-bold text-xs">en Mexico</p>
+                    </div>
+                  </div>
+                  <div class="w-full flex">
+                    <div>
+                      <img src="https://picsum.photos/200" alt="" />
+                    </div>
+                    <div class="xl:px-8 px-4">
+                      <p class="font-merriWeather">
+                        Pemex se centrara este ano en refinanciar...
+                      </p>
+                      <p class="text-xs font-workSans my-3">
+                        Por <span class="font-bold">Staff</span> | marzo 24,
+                        2021
+                      </p>
+                      <p class="font-workSans font-bold text-xs">en Mexico</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lg:hidden flex flex-wrap">
+                <div class="w-full">
+                  <p class="font-merriWeather md:text-2xl">
+                    Mercedes Benz suspendera produccion en Brasil por pandemia
+                  </p>
+                  <p class="text-xs font-workSans my-3">
+                    Por <span class="font-bold">Staff</span> | marzo 24, 2021
+                  </p>
+                  <p class="font-workSans font-bold text-xs">en Mexico</p>
+                </div>
+                <div class="w-full my-10">
+                  <p class="font-merriWeather md:text-2xl">
+                    Renault fabricara 3 modelos hibridos en Espana
+                  </p>
+                  <p class="text-xs font-workSans my-3">
+                    Por <span class="font-bold">Staff</span> | marzo 24, 2021
+                  </p>
+                  <p class="font-workSans font-bold text-xs">en Mexico</p>
+                </div>
+                <div class="w-full">
+                  <button
+                    class="bg-transparent outline-none focus:outline-none text-sm text-gray-500 font-bold font-workSans flex items-center"
+                  >
+                    <span class="mr-2">Mostrar mas</span>
+                    <i class="fas fa-arrow-right text-xs mt-1"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="xl:w-1/3 w-5/12 lg:flex hidden flex-wrap md:pb-36 pb-10 xl:pl-4 lg:px-4"
+          >
+            <div class="w-full mb-20">
+              <img src="https://picsum.photos/300/150" alt="" class="w-full" />
+              <p class="font-merriWeather text-lg mt-5">
+                Slim va por recompra de acciones de America Movil con fondo de
+                25,000 mdp
+              </p>
+              <p class="text-xs font-workSans my-3">
+                Por <span class="font-bold">Staff</span> | marzo 24, 2021
+              </p>
+              <p class="font-workSans font-bold text-xs">en Mexico</p>
+            </div>
+            <div class="w-full">
+              <img src="https://picsum.photos/300/150" alt="" class="w-full" />
+              <p class="font-merriWeather text-lg mt-5">
+                Alberto Ciurana, ejecutivo de TV Azteca, muere de Covid-19
+              </p>
+              <p class="text-xs font-workSans my-3">
+                Por <span class="font-bold">Staff</span> | marzo 24, 2021
+              </p>
+              <p class="font-workSans font-bold text-xs">en Mexico</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner Section ends -->
+
+    <!-- Cards Section -->
+    <section class="mt-16 xl:px-0 px-4">
+      <div class="container mx-auto">
+        <div class="flex flex-wrap">
+          <div class="lg:w-1/3 w-full xl:pr-0 lg:pr-4 pr-0">
+            <div>
+              <img src="https://picsum.photos/400/200" alt="" />
+              <p class="my-3 font-merriWeather">
+                Difunden video de Clara Luz Flores junto a líder de NXIVM
+              </p>
+              <p class="text-xs font-workSans my-3">
+                Por <span class="font-bold">Staff</span> | marzo 24, 2021
+              </p>
+              <p class="font-workSans font-bold text-xs">en Mexico</p>
+            </div>
+          </div>
+          <div class="lg:w-1/3 w-full lg:my-0 my-10 lg:pl-4 xl:pl-0 pl-0">
+            <div>
+              <img src="https://picsum.photos/400/200" alt="" />
+              <p class="my-3 font-merriWeather">
+                No, Kanye West no es la persona negra más rica de Estados
+                Unidos, y este es el motivo
+              </p>
+              <p class="text-xs font-workSans my-3">
+                Por <span class="font-bold">Staff</span> | marzo 24, 2021
+              </p>
+              <p class="font-workSans font-bold text-xs">en Mexico</p>
+            </div>
+          </div>
+          <!-- Ad card -->
+          <div
+            class="lg:w-1/4 w-full bg-purple mx-auto"
+            style="min-height: 200px"
+          ></div>
+          <!-- Ad card ends -->
+        </div>
+      </div>
+      <div class="h-1 bg-blue w-full md:hidden block mt-4"></div>
+    </section>
+    <!-- Cards Section ends -->
+
+    <!-- Ad area -->
+    <div class="container mx-auto my-16 md:block hidden">
+      <div class="flex">
+        <div class="w-3/4 mx-auto h-28 bg-blue"></div>
+      </div>
+    </div>
+    <!-- Ad area ends -->
+
+    <!-- Table section -->
+    <section class="mb-16 xl:px-0 px-4">
+      <div class="container mx-auto">
+        <div class="flex flex-wrap items-start">
+          <div class="lg:w-2/3 w-full">
+            <div class="flex flex-wrap">
+              <div class="w-full lg:block hidden">
+                <h1 class="font-workSans text-gray-500 font-semibold text-lg">
+                  Más de <span class="text-blue-light">Negocios</span>
+                </h1>
+                <div class="w-full h-0.5 bg-blue-light my-2"></div>
+              </div>
+              <div class="w-full flex flex-wrap items-start border-b pb-6 mb-6">
+                <div class="lg:w-2/3 lg:pr-6">
+                  <p
+                    class="text-xs font-workSans font-semibold text-gray-500 mb-3"
+                  >
+                    hace 4 minutos
+                  </p>
+                  <p class="font-merriWeather text-xl mb-3">
+                    Planta de GM en SLP reanudará actividades en abril
+                  </p>
+                  <p class="font-merriWeather mb-3 lg:block hidden">
+                    Sin embargo, otras plantas del fabricante en Estados Unidos
+                    prolongarán el recorte de producción.
+                  </p>
+                  <p class="text-xs font-workSans my-3">
+                    Por <span class="font-bold">Staff</span> | marzo 24, 2021
+                  </p>
+                  <p class="font-workSans font-bold text-xs">en Mexico</p>
+                </div>
+                <div class="lg:w-1/3 lg:order-last order-first lg:my-0 my-4">
+                  <img
+                    src="https://picsum.photos/300/150"
+                    alt=""
+                    class="md:block hidden"
+                  />
+                  <img
+                    src="https://picsum.photos/500/250"
+                    alt=""
+                    class="md:hidden block"
+                  />
+                </div>
+              </div>
+              <div class="w-full flex flex-wrap items-start border-b pb-6 mb-6">
+                <div class="lg:w-2/3 lg:pr-6">
+                  <p
+                    class="text-xs font-workSans font-semibold text-gray-500 mb-3"
+                  >
+                    hace 4 minutos
+                  </p>
+                  <p class="font-merriWeather text-xl mb-3">
+                    Estas son las ciudades en la mira de Ikea para expandirse en
+                    México
+                  </p>
+                  <p class="font-merriWeather mb-3 lg:block hidden">
+                    La compañía explorará un formato más pequeño de tiendas para
+                    llegar a ciudades con menor población en la República...
+                  </p>
+                  <p class="text-xs font-workSans my-3">
+                    Por <span class="font-bold">Staff</span> | marzo 24, 2021
+                  </p>
+                  <p class="font-workSans font-bold text-xs">en Mexico</p>
+                </div>
+                <div class="lg:w-1/3 lg:order-last order-first lg:my-0 my-4">
+                  <img
+                    src="https://picsum.photos/300/150"
+                    alt=""
+                    class="md:block hidden"
+                  />
+                  <img
+                    src="https://picsum.photos/500/250"
+                    alt=""
+                    class="md:hidden block"
+                  />
+                </div>
+              </div>
+              <div class="w-full flex flex-wrap items-start border-b pb-6 mb-6">
+                <div class="lg:w-2/3 lg:pr-6">
+                  <p
+                    class="text-xs font-workSans font-semibold text-gray-500 mb-3"
+                  >
+                    hace 22 minutos
+                  </p>
+                  <p class="font-merriWeather text-xl mb-3">
+                    MEM 2020 | Grupo SACSA: compromiso, pasión y servicio
+                  </p>
+                  <p class="font-merriWeather mb-3 lg:block hidden">
+                    Líder en la distribución y comercialización de semillas,
+                    fertilizantes y agroquímicos, su historia es de crecimiento
+                    y b...
+                  </p>
+                  <p class="text-xs font-workSans my-3">
+                    Por <span class="font-bold">Staff</span> | marzo 24, 2021
+                  </p>
+                  <p class="font-workSans font-bold text-xs">en Mexico</p>
+                </div>
+                <div class="lg:w-1/3 lg:order-last order-first lg:my-0 my-4">
+                  <img
+                    src="https://picsum.photos/300/150"
+                    alt=""
+                    class="md:block hidden"
+                  />
+                  <img
+                    src="https://picsum.photos/500/250"
+                    alt=""
+                    class="md:hidden block"
+                  />
+                </div>
+              </div>
+              <div class="w-full flex flex-wrap items-start border-b pb-6 mb-6">
+                <div class="lg:w-2/3 lg:pr-6">
+                  <p
+                    class="text-xs font-workSans font-semibold text-gray-500 mb-3"
+                  >
+                    hace 37 minutos
+                  </p>
+                  <p class="font-merriWeather text-xl mb-3">
+                    MEM 2020 | Niza, el futuro del talento audiovisual
+                  </p>
+                  <p class="font-merriWeather mb-3 lg:block hidden">
+                    Con una trayectoria de 5 décadas, Niza aporta proyectos
+                    audiovisuales de gran escala para un mundo conectado y
+                    preparado...
+                  </p>
+                  <p class="text-xs font-workSans my-3">
+                    Por <span class="font-bold">Staff</span> | marzo 24, 2021
+                  </p>
+                  <p class="font-workSans font-bold text-xs">en Mexico</p>
+                </div>
+                <div class="lg:w-1/3 lg:order-last order-first lg:my-0 my-4">
+                  <img
+                    src="https://picsum.photos/300/150"
+                    alt=""
+                    class="md:block hidden"
+                  />
+                  <img
+                    src="https://picsum.photos/500/250"
+                    alt=""
+                    class="md:hidden block"
+                  />
+                </div>
+              </div>
+              <!-- Ad area -->
+              <div class="w-full mb-6 lg:block hidden bg-black h-32"></div>
+              <!-- Ad area ends -->
+
+              <div class="w-full flex flex-wrap items-start border-b pb-6 mb-6">
+                <div class="lg:w-2/3 lg:pr-6">
+                  <p
+                    class="text-xs font-workSans font-semibold text-gray-500 mb-3"
+                  >
+                    hace 44 minutos
+                  </p>
+                  <p class="font-merriWeather text-xl mb-3">
+                    Axo elimina de su carrito a C&A México, Covid-19 echa atrás
+                    su compra
+                  </p>
+                  <p class="font-merriWeather mb-3 lg:block hidden">
+                    La empresa tiene marcas como Calvin Klein, Tommy Hilfiger y
+                    Nike, entre otras.
+                  </p>
+                  <p class="text-xs font-workSans my-3">
+                    Por <span class="font-bold">Staff</span> | marzo 24, 2021
+                  </p>
+                  <p class="font-workSans font-bold text-xs">en Mexico</p>
+                </div>
+                <div class="lg:w-1/3 lg:order-last order-first lg:my-0 my-4">
+                  <img
+                    src="https://picsum.photos/300/150"
+                    alt=""
+                    class="md:block hidden"
+                  />
+                  <img
+                    src="https://picsum.photos/500/250"
+                    alt=""
+                    class="md:hidden block"
+                  />
+                </div>
+              </div>
+              <div class="w-full flex flex-wrap items-start border-b pb-6 mb-6">
+                <div class="lg:w-2/3 lg:pr-6">
+                  <p
+                    class="text-xs font-workSans font-semibold text-gray-500 mb-3"
+                  >
+                    hace 52 minutos
+                  </p>
+                  <p class="font-merriWeather text-xl mb-3">
+                    Pemex, abierto a ceder operación de megacampo Zama
+                  </p>
+                  <p class="font-merriWeather mb-3 lg:block hidden">
+                    A punto de expirar el plazo para que Pemex y Talos pacten la
+                    unificación del campo Zama, la estatal se dijo abierta a
+                    ce...
+                  </p>
+                  <p class="text-xs font-workSans my-3">
+                    Por <span class="font-bold">Staff</span> | marzo 24, 2021
+                  </p>
+                  <p class="font-workSans font-bold text-xs">en Mexico</p>
+                </div>
+                <div class="lg:w-1/3 lg:order-last order-first lg:my-0 my-4">
+                  <img
+                    src="https://picsum.photos/300/150"
+                    alt=""
+                    class="md:block hidden"
+                  />
+                  <img
+                    src="https://picsum.photos/500/250"
+                    alt=""
+                    class="md:hidden block"
+                  />
+                </div>
+              </div>
+              <div class="w-full flex flex-wrap items-start border-b pb-6 mb-6">
+                <div class="lg:w-2/3 lg:pr-6">
+                  <p
+                    class="text-xs font-workSans font-semibold text-gray-500 mb-3"
+                  >
+                    hace 53 minutos
+                  </p>
+                  <p class="font-merriWeather text-xl mb-3">
+                    Interjet entrará a concurso mercantil; espera regresar al
+                    aire en julio
+                  </p>
+                  <p class="font-merriWeather mb-3 lg:block hidden">
+                    La compañía informó que también está en pláticas con el
+                    gobierno cubano para que se quede con las 20 aeronaves...
+                  </p>
+                  <p class="text-xs font-workSans my-3">
+                    Por <span class="font-bold">Staff</span> | marzo 24, 2021
+                  </p>
+                  <p class="font-workSans font-bold text-xs">en Mexico</p>
+                </div>
+                <div class="lg:w-1/3 lg:order-last order-first lg:my-0 my-4">
+                  <img
+                    src="https://picsum.photos/300/150"
+                    alt=""
+                    class="md:block hidden"
+                  />
+                  <img
+                    src="https://picsum.photos/500/250"
+                    alt=""
+                    class="md:hidden block"
+                  />
+                </div>
+              </div>
+              <div class="w-full flex flex-wrap items-start border-b pb-6 mb-6">
+                <div class="lg:w-2/3 lg:pr-6">
+                  <p
+                    class="text-xs font-workSans font-semibold text-gray-500 mb-3"
+                  >
+                    1 hore antes
+                  </p>
+                  <p class="font-merriWeather text-xl mb-3">
+                    De Jeff Bezos a Kendra Scott: estos CEOs dejaron las
+                    empresas que fundaron
+                  </p>
+                  <p class="font-merriWeather mb-3 lg:block hidden">
+                    Los CEOs cuenta con una permanencia promedio de solo 6.9
+                    años; el de Amazon es el de más alto perfil que se irá...
+                  </p>
+                  <p class="text-xs font-workSans my-3">
+                    Por <span class="font-bold">Staff</span> | marzo 24, 2021
+                  </p>
+                  <p class="font-workSans font-bold text-xs">en Mexico</p>
+                </div>
+                <div class="lg:w-1/3 lg:order-last order-first lg:my-0 my-4">
+                  <img
+                    src="https://picsum.photos/300/150"
+                    alt=""
+                    class="md:block hidden"
+                  />
+                  <img
+                    src="https://picsum.photos/500/250"
+                    alt=""
+                    class="md:hidden block"
+                  />
+                </div>
+              </div>
+              <div class="w-full flex flex-wrap items-start border-b pb-6 mb-6">
+                <div class="lg:w-2/3 lg:pr-6">
+                  <p
+                    class="text-xs font-workSans font-semibold text-gray-500 mb-3"
+                  >
+                    1 hore antes
+                  </p>
+                  <p class="font-merriWeather text-xl mb-3">
+                    Desde el teléfono, Hey Banco lanzará créditos hipotecarios y
+                    automotrices
+                  </p>
+                  <p class="font-merriWeather mb-3 lg:block hidden">
+                    Hey Banco creció a un ritmo de 9,000 clientes semanales
+                    nuevos a finales de 2020 de forma exclusivamente digital.
+                  </p>
+                  <p class="text-xs font-workSans my-3">
+                    Por <span class="font-bold">Staff</span> | marzo 24, 2021
+                  </p>
+                  <p class="font-workSans font-bold text-xs">en Mexico</p>
+                </div>
+                <div class="lg:w-1/3 lg:order-last order-first lg:my-0 my-4">
+                  <img
+                    src="https://picsum.photos/300/150"
+                    alt=""
+                    class="md:block hidden"
+                  />
+                  <img
+                    src="https://picsum.photos/500/250"
+                    alt=""
+                    class="md:hidden block"
+                  />
+                </div>
+              </div>
+              <div class="w-full flex flex-wrap items-start border-b pb-6 mb-6">
+                <div class="lg:w-2/3 lg:pr-6">
+                  <p
+                    class="text-xs font-workSans font-semibold text-gray-500 mb-3"
+                  >
+                    1 hore antes
+                  </p>
+                  <p class="font-merriWeather text-xl mb-3">
+                    Oxxo recibe subsidio de 26 mil pesos para electricidad por
+                    tienda: AMLO
+                  </p>
+                  <p class="font-merriWeather mb-3 lg:block hidden">
+                    El presidente acusó que la cadena de tiendas, así como Bimbo
+                    y Walmart, pagan de electricidad un tercio de un hogar sin..
+                  </p>
+                  <p class="text-xs font-workSans my-3">
+                    Por <span class="font-bold">Staff</span> | marzo 24, 2021
+                  </p>
+                  <p class="font-workSans font-bold text-xs">en Mexico</p>
+                </div>
+                <div class="lg:w-1/3 lg:order-last order-first lg:my-0 my-4">
+                  <img
+                    src="https://picsum.photos/300/150"
+                    alt=""
+                    class="md:block hidden"
+                  />
+                  <img
+                    src="https://picsum.photos/500/250"
+                    alt=""
+                    class="md:hidden block"
+                  />
+                </div>
+              </div>
+              <div class="w-full flex flex-wrap items-start border-b pb-6 mb-6">
+                <div class="lg:w-2/3 lg:pr-6">
+                  <p
+                    class="text-xs font-workSans font-semibold text-gray-500 mb-3"
+                  >
+                    1 hore antes
+                  </p>
+                  <p class="font-merriWeather text-xl mb-3">
+                    Vladimiro de la Mora es el nuevo presidente de la AmCham
+                  </p>
+                  <p class="font-merriWeather mb-3 lg:block hidden">
+                    El CEO de GE México relevará a Jorge Torres al frente de la
+                    American Chamber of Commerce of Mexico.
+                  </p>
+                  <p class="text-xs font-workSans my-3">
+                    Por <span class="font-bold">Staff</span> | marzo 24, 2021
+                  </p>
+                  <p class="font-workSans font-bold text-xs">en Mexico</p>
+                </div>
+                <div class="lg:w-1/3 lg:order-last order-first lg:my-0 my-4">
+                  <img
+                    src="https://picsum.photos/300/150"
+                    alt=""
+                    class="md:block hidden"
+                  />
+                  <img
+                    src="https://picsum.photos/500/250"
+                    alt=""
+                    class="md:hidden block"
+                  />
+                </div>
+              </div>
+              <div class="w-full flex flex-wrap items-start border-b pb-6 mb-6">
+                <div class="lg:w-2/3 lg:pr-6">
+                  <p
+                    class="text-xs font-workSans font-semibold text-gray-500 mb-3"
+                  >
+                    1 hore antes
+                  </p>
+                  <p class="font-merriWeather text-xl mb-3">
+                    El CEO de GE México relevará a Jorge Torres al frente de la
+                    American Chamber of Commerce of Mexico.
+                  </p>
+                  <p class="font-merriWeather mb-3 lg:block hidden">
+                    Responsabilidad, ética e innovación son factores que colocan
+                    al corporativo como una de las Mejores Empresas Mexicanas
+                  </p>
+                  <p class="text-xs font-workSans my-3">
+                    Por <span class="font-bold">Staff</span> | marzo 24, 2021
+                  </p>
+                  <p class="font-workSans font-bold text-xs">en Mexico</p>
+                </div>
+                <div class="lg:w-1/3 lg:order-last order-first lg:my-0 my-4">
+                  <img
+                    src="https://picsum.photos/300/150"
+                    alt=""
+                    class="md:block hidden"
+                  />
+                  <img
+                    src="https://picsum.photos/500/250"
+                    alt=""
+                    class="md:hidden block"
+                  />
+                </div>
+              </div>
+              <div class="w-full flex flex-wrap items-start border-b pb-6 mb-6">
+                <div class="lg:w-2/3 lg:pr-6">
+                  <p
+                    class="text-xs font-workSans font-semibold text-gray-500 mb-3"
+                  >
+                    1 hore antes
+                  </p>
+                  <p class="font-merriWeather text-xl mb-3">
+                    Pemex busca renegociar con Vitol tras escándalo de sobornos
+                  </p>
+                  <p class="font-merriWeather mb-3 lg:block hidden">
+                    Pemex está revisando sus contratos con Vitol luego de que
+                    esta firma suiza aceptó en EU haber pagado sobornos en...
+                  </p>
+                  <p class="text-xs font-workSans my-3">
+                    Por <span class="font-bold">Staff</span> | marzo 24, 2021
+                  </p>
+                  <p class="font-workSans font-bold text-xs">en Mexico</p>
+                </div>
+                <div class="lg:w-1/3 lg:order-last order-first lg:my-0 my-4">
+                  <img
+                    src="https://picsum.photos/300/150"
+                    alt=""
+                    class="md:block hidden"
+                  />
+                  <img
+                    src="https://picsum.photos/500/250"
+                    alt=""
+                    class="md:hidden block"
+                  />
+                </div>
+              </div>
+              <div class="w-full flex flex-wrap items-start border-b pb-6 mb-6">
+                <div class="lg:w-2/3 lg:pr-6">
+                  <p
+                    class="text-xs font-workSans font-semibold text-gray-500 mb-3"
+                  >
+                    1 hore antes
+                  </p>
+                  <p class="font-merriWeather text-xl mb-3">
+                    Esta será la primera red ferroviaria que conectará a Estados
+                    Unidos, México y Canadá
+                  </p>
+                  <p class="font-merriWeather mb-3 lg:block hidden">
+                    Esta será la primera red ferroviaria que conectará a Estados
+                    Unidos, México y Canadá
+                  </p>
+                  <p class="text-xs font-workSans my-3">
+                    Por <span class="font-bold">Staff</span> | marzo 24, 2021
+                  </p>
+                  <p class="font-workSans font-bold text-xs">en Mexico</p>
+                </div>
+                <div class="lg:w-1/3 lg:order-last order-first lg:my-0 my-4">
+                  <img
+                    src="https://picsum.photos/300/150"
+                    alt=""
+                    class="md:block hidden"
+                  />
+                  <img
+                    src="https://picsum.photos/500/250"
+                    alt=""
+                    class="md:hidden block"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Ad section -->
+          <div class="w-1/3 lg:flex flex-wrap hidden items-start">
+            <div
+              class="w-3/4 mx-auto bg-red-600 mb-80"
+              style="min-height: 700px"
+            ></div>
+            <div
+              class="w-3/4 mx-auto bg-green mb-44"
+              style="min-height: 700px"
+            ></div>
+          </div>
+          <!-- Ad section ends -->
+        </div>
+      </div>
+    </section>
+    <!-- Table section ends -->
+
+    <!-- Footer -->
+    <footer class="bg-footer w-full pt-6 md:px-10 px-5 md:pb-20 pb-10">
+      <div class="flex flex-wrap">
+        <div class="w-full flex md:justify-end justify-center mt-5 mb-8">
+          <ul class="flex items-center">
+            <li class="cursor-pointer md:mr-10 mr-5">
+              <a href="#" class="text-white">
+                <i class="fab fa-facebook-f font-bold md:text-2xl"></i>
+              </a>
+            </li>
+            <li class="cursor-pointer md:mr-10 mr-5">
+              <a href="#" class="text-white">
+                <i class="fab fa-twitter font-bold md:text-2xl"></i>
+              </a>
+            </li>
+            <li class="cursor-pointer md:mr-10 mr-5">
+              <a href="#" class="text-white">
+                <i class="fab fa-instagram font-bold md:text-2xl"></i>
+              </a>
+            </li>
+            <li class="cursor-pointer md:mr-10 mr-5">
+              <a href="#" class="text-white">
+                <i class="fab fa-pinterest font-bold md:text-2xl"></i>
+              </a>
+            </li>
+            <li class="cursor-pointer md:mr-10 mr-5">
+              <a href="#" class="text-white">
+                <i class="fab fa-linkedin-in font-bold md:text-2xl"></i>
+              </a>
+            </li>
+            <li class="cursor-pointer md:mr-10 mr-5">
+              <a href="#" class="text-white">
+                <i class="fas fa-wifi font-bold md:text-2xl"></i>
+              </a>
+            </li>
+            <li class="cursor-pointer">
+              <a href="#" class="text-white">
+                <i class="fab fa-youtube font-bold md:text-2xl"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="w-full border-b border-white border-t py-4 flex md:flex-nowrap flex-wrap justify-evenly"
+        >
+          <div class="md:w-auto w-full md:text-left text-center">
+            <a
+              href="#"
+              class="text-white font-workSans font-light md:text-xl text-sm"
+            >
+              Directorio
+            </a>
+          </div>
+          <div class="md:w-auto w-full md:text-left text-center">
+            <a
+              href="#"
+              class="text-white font-workSans font-light md:text-xl text-sm"
+            >
+              Media Kit
+            </a>
+          </div>
+          <div class="md:w-auto w-full md:text-left text-center">
+            <a
+              href="#"
+              class="text-white font-workSans font-light md:text-xl text-sm"
+            >
+              Aviso de Privacidad
+            </a>
+          </div>
+          <div class="md:w-auto w-full md:text-left text-center">
+            <a
+              href="#"
+              class="text-white font-workSans font-light md:text-xl text-sm"
+            >
+              Declaracion de Accesibilidad
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer ends -->
+
+    <script
+      src="https://kit.fontawesome.com/ede2fe071e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

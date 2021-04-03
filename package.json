@@ -1,0 +1,30 @@
+{
+  "name": "tailwind-postcss",
+  "version": "0.0.2",
+  "author": {
+    "name": "Maratib Ali Khan",
+    "email": "maratib@gmail.com",
+    "url": "https://maratib.github.io"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production postcss tailwind.css -o docs/styles.css",
+    "postbuild": "cp -av src/* docs && mv docs/styles.css docs/assets/css",
+    "build:dev": "tailwindcss build tailwind.css -o src/assets/css/styles.css",
+    "live": "live-server ./src --port=8080 --ignore=/assets/css",
+    "dev": "watch 'yarn build:dev' ./src/ --ignoreDirectoryPattern='/assets/css/' & yarn live"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.0",
+    "@tailwindcss/jit": "^0.1.17",
+    "autoprefixer": "^10.2.5",
+    "cross-env": "^7.0.3",
+    "cssnano": "^4.1.10",
+    "live-server": "^1.2.1",
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2",
+    "watch": "^1.0.2"
+  }
+}
