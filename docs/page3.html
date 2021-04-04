@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>TailwindCSS-PostCSS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
+    />
+    <link href="./assets/css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Main Navbar -->
+    <header class="h-14 bg-black flex items-center px-5">
+      <div>
+        <a href="#">
+          <span class="bg-white h-1 w-10 block"></span>
+          <span class="bg-white h-1 w-10 my-1 block"></span>
+          <span class="bg-white h-1 w-10 block"></span>
+        </a>
+      </div>
+      <div class="w-full flex justify-center">
+        <h1 class="text-4xl uppercase text-white font-sans">logo</h1>
+      </div>
+      <div>
+        <a href="#">
+          <i class="fas fa-search text-white text-2xl"></i>
+        </a>
+      </div>
+    </header>
+    <!-- Main Navbar ends -->
+
+    <!-- Sub navbar -->
+    <nav class="w-full flex justify-center relative">
+      <ul
+        class="xl:w-nav-width lg:w-1/2 md:w-2/3 w-full bg-nav flex justify-evenly pb-3 p-2 md:rounded-b-2xl"
+      >
+        <li>
+          <a
+            href="#"
+            class="uppercase text-white font-workSans font-medium md:text-sm text-xss truncate cursor-pointer"
+            >mexico</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="uppercase text-white font-workSans font-medium md:text-sm text-xss truncate cursor-pointer"
+            >colombia</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="uppercase text-white font-workSans font-medium md:text-sm text-xss truncate cursor-pointer"
+            >peru</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="uppercase text-white font-workSans font-medium md:text-sm text-xss truncate cursor-pointer"
+            >chile</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="uppercase text-white font-workSans font-medium md:text-sm text-xss truncate cursor-pointer"
+            >centroamerica</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="uppercase text-white font-workSans font-medium md:text-sm text-xss truncate cursor-pointer"
+            >rep. deminicana</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!-- Sub navbar ends -->
+
+    <!-- Banner section -->
+    <section class="md:-mt-12">
+      <div class="flex flex-wrap h-full">
+        <div
+          class="w-full bg-black md:px-10 px-4 md:py-20 pt-16 text-center md:order-first order-last"
+        >
+          <p class="text-white font-workSans md:text-base text-sm">
+            ELECCIÓN DE LOS EDITORES
+          </p>
+          <p
+            class="text-white md:block hidden text-5xl font-workSans font-semibold my-10"
+          >
+            ¿Tienes bitcoins? Ahora ya puedes comprar un auto de Tesla con esta
+            criptomoneda
+          </p>
+          <p
+            class="text-white md:hidden block text-xl font-workSans font-semibold my-10"
+          >
+            El príncipe Harry y Meghan Markle seleccionan al ejecutivo de cine
+            independiente para dirigir Archewell
+          </p>
+          <p
+            class="text-white font-workSans text-sm font-semibold md:block hidden"
+          >
+            22 de marzo de 2021,10:02 am EST| 1,725 visualizaciones
+          </p>
+        </div>
+        <div class="w-full">
+          <img
+            src="https://picsum.photos/2200/800"
+            alt=""
+            class="md:block hidden"
+          />
+          <img
+            src="https://picsum.photos/2200/1300"
+            alt=""
+            class="md:hidden block"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Banner section ends -->
+
+    <!-- Content Section -->
+    <section class="my-16">
+      <div class="container mx-auto">
+        <div class="flex flex-wrap">
+          <div
+            class="lg:w-2/3 md:w-3/4 w-full mx-auto flex items-start xl:px-0 px-4 mb-10"
+          >
+            <div class="md:w-24 w-14">
+              <img
+                src="https://picsum.photos/200"
+                alt=""
+                class="rounded-full"
+              />
+            </div>
+            <div class="flex-1 md:mt-6 mt-3 md:pl-6 pl-3">
+              <p class="font-workSans font-semibold md:text-2xl">
+                Santiago Naranjo
+              </p>
+              <div class="h-0.5 w-full bg-black my-2"></div>
+              <p class="font-merriWeather md:text-base text-xss text-gray-500">
+                Presidente VTEX.Ingeniero financiero, experto en comercio
+                electrónico y retail, coin más de 10 años de experiencia
+                liderando la creación y expansión de marcas existosas, tanti
+                físicas como digitales.
+              </p>
+            </div>
+          </div>
+          <div class="lg:w-2/3 md:w-3/4 w-full mx-auto xl:px-0 px-4">
+            <p class="font-merriWeather text-xl mb-8 text-gray-800">
+              El fabricante de automóviles eléctricos había dicho el mes pasado
+              que había comprado 1.500 millones de dólares en bitcoins y que
+              pronto los aceptaría como forma de pago para los coches.
+            </p>
+            <p class="font-merriWeather text-xl mb-8 text-gray-800">
+              El bitcoin, la mayor moneda digital del mundo, subió más de un 4%
+              tras el tuit de Musk y cotizaba por última vez en 56.429 dólares.
+            </p>
+            <p class="font-merriWeather text-xl mb-8 text-gray-800">
+              Musk dijo que el bitcoin pagado a Tesla no se convertiría en
+              moneda tradicional, pero dio pocos detalles sobre cómo se
+              procesarían los pagos. La compañía está usando un “software
+              interno y de código abierto”, dijo.
+            </p>
+            <p class="font-merriWeather text-xl mb-8 text-gray-800">
+              Sigue la información de los Negocios en nuestra sección
+              especializada
+            </p>
+            <p class="font-merriWeather text-xl mb-8 text-gray-800">
+              La mayoría de las empresas convencionales que permiten a los
+              clientes pagar con bitcoin, como AT&T Inc y Microsoft Corp ,
+              suelen usar procesadores de pago especializados que convierten la
+              criptodivisa en, por ejemplo, dólares y envían la suma a la
+              empresa
+            </p>
+            <p class="font-merriWeather text-xl mb-8 text-gray-800">
+              Al igual que otras criptodivisas, el bitcoin sigue siendo poco
+              usado para el comercio en las principales economías, obstaculizado
+              por su volatilidad y el procesamiento relativamente costoso y
+              lento.
+            </p>
+            <p class="font-merriWeather text-xl mb-8 text-gray-800">
+              Musk, que publica regularmente comentarios en Twitter sobre las
+              criptodivisas, criticó el mes pasado el dinero en efectivo
+              convencional, diciendo que cuando “tiene un interés real negativo,
+              sólo un tonto no miraría a otra parte”.
+            </p>
+          </div>
+          <!-- Ad area -->
+          <div class="w-full my-6 h-screen bg-green md:hidden block"></div>
+          <!-- Ad area -->
+
+          <div class="lg:w-2/3 md:w-3/4 w-full mx-auto xl:px-0 px-4">
+            <p class="font-merriWeather text-xl mb-8 text-gray-800">
+              Tras la inversión de Tesla en bitcoin, empresas como Mastercard
+              Inc y Bank of New York Mellon Corp han adoptado el activo
+              emergente, lo que ha alentado las predicciones de que el bitcoin y
+              otras criptodivisas se convertirán en parte habitual de las
+              carteras de inversión.
+            </p>
+            <p class="font-merriWeather text-xl mb-8 text-gray-800">
+              Tesla añadió recientemente “Technoking of Tesla” a la lista de
+              títulos oficiales de Musk.
+            </p>
+            <p class="font-merriWeather text-xl mb-8 text-gray-800">
+              Síguenos en Google Noticias para mantenerte siempre informado
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Content Section ends -->
+
+    <!-- Ad section -->
+    <div class="w-full bg-red-50 md:flex hidden h-56 py-4">
+      <div class="w-2/3 mx-auto h-full bg-green"></div>
+    </div>
+    <!-- Ad section ends -->
+
+    <!-- Ad section -->
+
+    <!-- Ad section ends -->
+    <div class="w-full bg-gray-50 md:flex hidden h-56 py-4">
+      <div class="w-3/4 mx-auto h-full bg-orange-dark"></div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-footer w-full pt-6 md:px-10 px-5 md:pb-20 pb-10">
+      <div class="flex flex-wrap">
+        <div class="w-full flex md:justify-end justify-center mt-5 mb-8">
+          <ul class="flex items-center">
+            <li class="cursor-pointer md:mr-10 mr-5">
+              <a href="#" class="text-white">
+                <i class="fab fa-facebook-f font-bold md:text-2xl"></i>
+              </a>
+            </li>
+            <li class="cursor-pointer md:mr-10 mr-5">
+              <a href="#" class="text-white">
+                <i class="fab fa-twitter font-bold md:text-2xl"></i>
+              </a>
+            </li>
+            <li class="cursor-pointer md:mr-10 mr-5">
+              <a href="#" class="text-white">
+                <i class="fab fa-instagram font-bold md:text-2xl"></i>
+              </a>
+            </li>
+            <li class="cursor-pointer md:mr-10 mr-5">
+              <a href="#" class="text-white">
+                <i class="fab fa-pinterest font-bold md:text-2xl"></i>
+              </a>
+            </li>
+            <li class="cursor-pointer md:mr-10 mr-5">
+              <a href="#" class="text-white">
+                <i class="fab fa-linkedin-in font-bold md:text-2xl"></i>
+              </a>
+            </li>
+            <li class="cursor-pointer md:mr-10 mr-5">
+              <a href="#" class="text-white">
+                <i class="fas fa-wifi font-bold md:text-2xl"></i>
+              </a>
+            </li>
+            <li class="cursor-pointer">
+              <a href="#" class="text-white">
+                <i class="fab fa-youtube font-bold md:text-2xl"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="w-full border-b border-white border-t py-4 flex md:flex-nowrap flex-wrap justify-evenly"
+        >
+          <div class="md:w-auto w-full md:text-left text-center">
+            <a
+              href="#"
+              class="text-white font-workSans font-light md:text-xl text-sm"
+            >
+              Directorio
+            </a>
+          </div>
+          <div class="md:w-auto w-full md:text-left text-center">
+            <a
+              href="#"
+              class="text-white font-workSans font-light md:text-xl text-sm"
+            >
+              Media Kit
+            </a>
+          </div>
+          <div class="md:w-auto w-full md:text-left text-center">
+            <a
+              href="#"
+              class="text-white font-workSans font-light md:text-xl text-sm"
+            >
+              Aviso de Privacidad
+            </a>
+          </div>
+          <div class="md:w-auto w-full md:text-left text-center">
+            <a
+              href="#"
+              class="text-white font-workSans font-light md:text-xl text-sm"
+            >
+              Declaracion de Accesibilidad
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer ends -->
+
+    <script
+      src="https://kit.fontawesome.com/ede2fe071e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
