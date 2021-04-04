@@ -40,7 +40,7 @@ yarn build
 # You will get the url of your site under GitHub pages
 
 # IMPORTANT:
-# Do some minor change (e.g in README.md) and push to the repo. again to trigger the GitHub deployment process.
+# Do some minor change (e.g in README.md) and push to the repo. again to trigger the GitHub deployment process. 11
 
 # DONE
 ```
