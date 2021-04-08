@@ -155,19 +155,28 @@
         <div class="w-full flex flex-wrap">
           <div class="xl:w-2/3 lg:w-7/12 w-full">
             <div class="w-full lg:pr-2">
-              <div class="w-full md:pr-3 md:border-r-2 md:pb-10 mb-4">
-                <img src="https://picsum.photos/seed/picsum/600/250" alt="" class="w-full md:block hidden" />
-                <img src="https://picsum.photos/seed/picsum/600/350" alt="" class="w-full md:hidden block" />
-                <p class="font-merriWeather md:text-3xl text-xl text-center md:mt-6 mt-3 mb-8 font-semibold">
-                  Morena no ha dado la mitad de su presupuesto para vacunas
-                  como lo prometio
-                </p>
-                <p class="text-center text-xs font-workSans">
-                  Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                </p>
-                <p class="font-workSans text-center font-bold text-xs mt-3">
-                  en Mexico
-                </p>
+              <div class="module w-full md:pr-3 md:border-r-2 md:pb-10 mb-4">
+                <figure class="module__img">
+                  <a href="#">
+                    <img src="https://picsum.photos/seed/picsum/600/250" alt="" class="w-full md:block hidden" />
+                    <img src="https://picsum.photos/seed/picsum/600/350" alt="" class="w-full md:hidden block" />
+                  </a>
+                </figure>
+                <div
+                  class="module__txt font-merriWeather md:text-3xl text-xl text-center md:mt-6 mt-3 mb-8 font-semibold">
+                  <h2>
+                    <a href="#">
+                      Morena no ha dado la mitad de su presupuesto para vacunas
+                      como lo prometio
+                    </a>
+                  </h2>
+                </div>
+                <div class="module-metadata text-center text-xs font-workSans">
+                  Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date> <span
+                    class="font-workSans text-center font-bold text-xs mt-3 block">
+                    en Mexico
+                  </span>
+                </div>
               </div>
               <div class="w-full md:hidden block my-5 text-center">
                 <p class="font-merriWeather">
@@ -178,42 +187,60 @@
               </div>
               <div class="w-full flex flex-wrap lg:pr-4">
                 <div class="lg:w-1/2 lg:pr-4 lg:mb-0 mb-5">
-                  <div class="w-full">
-                    <img src="https://picsum.photos/seed/picsum/400/200" alt="" />
+                  <div class="module w-full">
+                    <figure class="module__img">
+                      <a href="#">
+                        <img src="https://picsum.photos/seed/picsum/400/200" alt="" />
+                      </a>
+                    </figure>
                     <p class="md:hidden block text-gray-500 font-workSans font-medium uppercase mt-5 mb-4">
                       forbes
                     </p>
-                    <p class="font-merriWeather text-lg md:mt-5 mb-6">
-                      Bitcoin, Tesla, GameStop y otras senales
-                      <br class="md:block hidden" />
-                      de que la recuperacion de mercados
-                      <br class="md:block hidden" />
-                      sera la mas rapida de la historia
+                    <div class="module__txt font-merriWeather text-lg md:mt-5 mb-6">
+                      <h2>
+                        <a href="#">
+                          Bitcoin, Tesla, GameStop y otras senales
+                          <br class="md:block hidden" />
+                          de que la recuperacion de mercados
+                          <br class="md:block hidden" />
+                          sera la mas rapida de la historia
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24,
+                        2021</date>
+                      <p class="font-workSans font-bold text-xs mt-3">
+                        en Mexico
+                      </p>
+                    </div>
+                    <p>
+
                     </p>
-                    <p class="text-xs font-workSans">
-                      Por <span class="font-bold">Staff</span> | marzo 24,
-                      2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs mt-3">
-                      en Mexico
-                    </p>
+
                   </div>
                 </div>
                 <div class="lg:w-1/2 lg:pl-4">
-                  <div class="w-full">
-                    <img src="https://picsum.photos/seed/picsum/400/200" alt="" />
-                    <p class="font-merriWeather text-lg mt-5 mb-6">
-                      Como AMLO, Sheinbaum vendera
-                      <br class="md:block hidden" />
-                      inmuebles decomisados al crimen
-                    </p>
-                    <p class="text-xs font-workSans">
-                      Por <span class="font-bold">Staff</span> | marzo 24,
-                      2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs mt-3">
-                      en Mexico
-                    </p>
+                  <div class="module w-full">
+                    <figure class="module__img">
+                      <a href="#">
+                        <img src="https://picsum.photos/seed/picsum/400/200" alt="" />
+                      </a>
+                    </figure>
+                    <div class="module__txt font-merriWeather text-lg mt-5 mb-6">
+                      <a href="#">
+                        Como AMLO, Sheinbaum vendera
+                        <br class="md:block hidden" />
+                        inmuebles decomisados al crimen
+                      </a>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24,
+                        2021</date>
+                      <p class="mt-3">
+                        en Mexico
+                      </p>
+                    </div>
                   </div>
                 </div>
                 <div class="w-full md:hidden flex flex-wrap bg-white py-10 mt-5 px-4">
@@ -375,7 +402,7 @@
   <div class="h-1 bg-green-dark my-4 md:hidden block w-full"></div>
   <!-- Banner Section ends -->
 
-  <!-- Diner Section -->
+  <!-- Dinero Section -->
   <section class="mt-5">
     <div class="bg-white w-full pt-6 pb-3 mb-3 xl:px-0 px-4">
       <div class="container mx-auto">
@@ -391,117 +418,157 @@
       <div class="flex flex-wrap items-start">
         <div class="xl:w-2/3 lg:w-7/12 w-full md:border-r-2 xl:px-0 px-4">
           <div class="w-full">
-            <div class="w-full md:pr-3 md:mb-4 mb-2">
-              <img src="https://picsum.photos/seed/picsum/600/250" alt="" class="w-full md:block hidden" />
-              <img src="https://picsum.photos/seed/picsum/600/350" alt="" class="w-full md:hidden block" />
-              <p
-                class="font-merriWeather md:text-2xl text-xl text-center my-3 font-medium w-2/3 mx-auto md:block hidden">
-                Jornada Notarial 2021: ¿sabias que puedes ahorrar hasta 35 mil
-                pesos en escrituracion?
-              </p>
-              <p class="text-center text-xs font-workSans md:mt-0 mt-4">
-                Por <span class="font-bold">Staff</span> | marzo 24, 2021
-              </p>
-              <p class="font-workSans text-center font-bold text-xs mt-3">
-                en Mexico
-              </p>
+            <div class="module w-full md:pr-3 md:mb-4 mb-2">
+              <figure class="module__img">
+                <a href="#">
+                  <img src="https://picsum.photos/seed/picsum/600/250" alt="" class="w-full md:block hidden" />
+                  <img src="https://picsum.photos/seed/picsum/600/350" alt="" class="w-full md:hidden block" />
+                </a>
+              </figure>
+              <div
+                class="module__txt font-merriWeather md:text-2xl text-xl text-center my-3 font-medium w-2/3 mx-auto md:block hidden">
+                <h2>
+                  <a href="#">
+                    Jornada Notarial 2021: ¿sabias que puedes ahorrar hasta 35 mil
+                    pesos en escrituracion?
+                  </a>
+                </h2>
+              </div>
+              <div class="module__metadata text-center text-xs font-workSans md:mt-0 mt-4">
+                Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                <p class="font-workSans text-center font-bold text-xs mt-3">
+                  en Mexico
+                </p>
+              </div>
             </div>
             <div class="w-full pr-4 pl-2 mb-4">
               <div class="h-0.5 bg-gray-300 w-full"></div>
             </div>
             <div class="w-full lg:flex hidden flex-wrap">
               <div class="lg:w-1/2 flex flex-wrap lg:border-r">
-                <div class="w-full flex mb-5">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex mb-5">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
+
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      Conoce dos diferentes vehiculos de inversion que han ganado mucha...
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          Conoce dos diferentes vehiculos de inversion que han ganado mucha...
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">
+                        en Mexico
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <div class="w-full flex">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex mb-5">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
+
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      Conoce dos diferentes vehiculos de inversion que han ganado mucha...
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          Conoce dos diferentes vehiculos de inversion que han ganado mucha...
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">
+                        en Mexico
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="lg:w-1/2 flex flex-wrap lg:pl-4">
-                <div class="w-full flex mb-5">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex mb-5">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
+
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      Conoce dos diferentes vehiculos de inversion que han ganado mucha...
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          Conoce dos diferentes vehiculos de inversion que han ganado mucha...
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">
+                        en Mexico
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <div class="w-full flex">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex mb-5">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
+
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      Conoce dos diferentes vehiculos de inversion que han ganado mucha...
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          Conoce dos diferentes vehiculos de inversion que han ganado mucha...
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">
+                        en Mexico
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="lg:hidden flex flex-wrap">
-              <div class="w-full">
-                <p class="font-merriWeather md:text-2xl">
-                  Jornada Notarial 2021: ¿sabias que puedes ahorrar hasta 35 mil pesos en escrituracion?
-                </p>
-                <p class="text-xs font-workSans my-3">
-                  Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                </p>
-                <p class="font-workSans font-bold text-xs">
-                  en Mexico
-                </p>
+              <div class="w-full module">
+                <div class="module__txt font-merriWeather md:text-2xl">
+                  <h2>
+                    <a href="#">
+                      Jornada Notarial 2021: ¿sabias que puedes ahorrar hasta 35 mil pesos en escrituracion?
+                    </a>
+                  </h2>
+                </div>
+                <div class="module__metadata text-xs font-workSans mt-3">
+                  Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                  <p class="font-workSans font-bold text-xs mt-3">en Mexico</p>
+                </div>
               </div>
-              <div class="w-full my-10">
-                <p class="font-merriWeather md:text-2xl">
-                  Conoce dos diferentes vehiculos de inversion que han ganado mucha popu-laridad en los mercados
-                  financieros: los Futuros y...
-                </p>
-                <p class="text-xs font-workSans my-3">
-                  Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                </p>
-                <p class="font-workSans font-bold text-xs">
-                  en Mexico
-                </p>
+              <div class="module w-full my-10">
+                <div class="module__txt font-merriWeather md:text-2xl">
+                  <h2>
+                    <a href="#">
+                      Conoce dos diferentes vehiculos de inversion que han ganado mucha popu-laridad en los mercados
+                      financieros: los Futuros y...
+                    </a>
+                  </h2>
+                </div>
+                <div class="module__metadata text-xs font-workSans mt-3">
+                  Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                  <p class="font-bold mt-3">en Mexico</p>
+                </div>
               </div>
               <div class="w-full">
                 <button
@@ -514,33 +581,42 @@
           </div>
         </div>
         <div class="xl:w-1/3 w-5/12 lg:flex hidden flex-wrap md:pb-36 pb-10 xl:pl-4 lg:px-4">
-          <div class="w-full mb-20">
-            <img src="https://picsum.photos/300/150" alt="" class="w-full">
-            <p class="font-merriWeather text-lg mt-5">
-              Conoce la historia de Sophia Amoruso ganando y perdiendo dinero en el mundo de la ropa y los accesorios.
-              <br> Hay algo que ap..
-            </p>
-            <p class="text-xs font-workSans my-3">
-              Por <span class="font-bold">Staff</span> | marzo 24, 2021
-            </p>
-            <p class="font-workSans font-bold text-xs">
-              en Mexico
-            </p>
+          <div class="module w-full mb-20">
+            <figure class="module__img">
+              <a href="#">
+                <img src="https://picsum.photos/300/150" alt="" class="w-full">
+              </a>
+            </figure>
+            <div class="module__txt font-merriWeather text-lg mt-5">
+              <h2>
+                <a href="#">
+                  Conoce la historia de Sophia Amoruso ganando y perdiendo dinero en el mundo de la ropa y los
+                  accesorios.
+                  <br> Hay algo que ap..
+                </a>
+              </h2>
+            </div>
+            <div class="module__metadata text-xs font-workSans mt-3">
+              Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+              <p class="font-bold mt-3">en Mexico</p>
+            </div>
           </div>
-          <div class="w-full">
-            <img src="https://picsum.photos/300/150" alt="" class="w-full">
-            <p class="text-xs font-workSans my-3">
-              Por <span class="font-bold">Staff</span> | marzo 24, 2021
-            </p>
-            <p class="font-workSans font-bold text-xs">
-              en Mexico
-            </p>
+          <div class="module w-full mb-20">
+            <figure class="module__img">
+              <a href="#">
+                <img src="https://picsum.photos/300/150" alt="" class="w-full">
+              </a>
+            </figure>
+            <div class="module__metadata text-xs font-workSans mt-3">
+              Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+              <p class="font-bold mt-3">en Mexico</p>
+            </div>
           </div>
         </div>
       </div>
   </section>
   <div class="h-1 bg-purple-dark w-full my-4 md:hidden block"></div>
-  <!-- Diner Section ends -->
+  <!-- Dinero Section ends -->
 
   <!-- Video Section -->
   <section class="mt-10">
@@ -552,12 +628,16 @@
         <div class="flex-1 h-0.5 bg-purple mb-3"></div>
       </div>
       <div class="flex flex-wrap items-start">
-        <div class="xl:w-2/3 lg:w-7/12 w-full relative xl:pl-0 lg:pl-4 pl-0">
-          <img src="https://picsum.photos/600/350" alt="" class="w-full">
-          <button
-            class="bg-transparent outline-none focus:outline-none absolute top-1/2 left-1/2 transform -translate-y-1/2 md:-ml-20 -ml-14">
-            <img src="./assets/img/play-button-icon.png" alt="" class="md:w-1/2 w-1/3">
-          </button>
+        <div class="module xl:w-2/3 lg:w-7/12 w-full relative xl:pl-0 lg:pl-4 pl-0">
+          <figure class="module__video">
+            <a href="#">
+              <img src="https://picsum.photos/600/350" alt="" class="w-full">
+              <button
+                class="bg-transparent outline-none focus:outline-none absolute top-1/2 left-1/2 transform -translate-y-1/2 md:-ml-20 -ml-14">
+                <img src="./assets/img/play-button-icon.png" alt="" class="md:w-1/2 w-1/3">
+              </button>
+            </a>
+          </figure>
         </div>
         <div class="w-full lg:hidden block my-8 xl:px-0 px-4">
           <p class="font-merriWeather text-2xl">
@@ -572,43 +652,61 @@
               mas para ver
             </button>
           </div>
-          <div class="w-full flex border-b pb-6 items-start">
+          <div class="module w-full flex border-b pb-6 items-start">
             <div class="md:w-1/2 w-auto cursor-pointer relative">
-              <img src="https://picsum.photos/400/300" alt="" class="lg:hidden block" />
-              <img src="https://picsum.photos/300/170" alt="" class="lg:block hidden" />
-              <img src="./assets/img/play-button-icon.png" alt=""
-                class="md:w-16 w-10 absolute top-1/2 transform -translate-y-1/2 left-1/3">
+              <figure class="module__video">
+                <a href="#">
+                  <img src="https://picsum.photos/400/300" alt="" class="lg:hidden block" />
+                  <img src="https://picsum.photos/300/170" alt="" class="lg:block hidden" />
+                  <img src="./assets/img/play-button-icon.png" alt=""
+                    class="md:w-16 w-10 absolute top-1/2 transform -translate-y-1/2 left-1/3">
+                </a>
+              </figure>
             </div>
-            <div class="px-4 md:w-1/2">
-              <p class="font-merriWeather md:text-lg text-sm">
-                'Checo' Perez y su llegada a Red Bull, Olimpico Gourmet y mas...
-              </p>
+            <div class="module__txt px-4 md:w-1/2">
+              <h2 class="font-merriWeather md:text-lg text-sm">
+                <a href="#">
+                  'Checo' Perez y su llegada a Red Bull, Olimpico Gourmet y mas...
+                </a>
+              </h2>
             </div>
           </div>
-          <div class="w-full flex border-b pb-6 my-7.5 items-start">
+          <div class="module w-full flex border-b pb-6 items-start my-6">
             <div class="md:w-1/2 w-auto cursor-pointer relative">
-              <img src="https://picsum.photos/400/300" alt="" class="lg:hidden block" />
-              <img src="https://picsum.photos/300/170" alt="" class="lg:block hidden" />
-              <img src="./assets/img/play-button-icon.png" alt=""
-                class="md:w-16 w-10 absolute top-1/2 transform -translate-y-1/2 left-1/3">
+              <figure class="module__video">
+                <a href="#">
+                  <img src="https://picsum.photos/400/300" alt="" class="lg:hidden block" />
+                  <img src="https://picsum.photos/300/170" alt="" class="lg:block hidden" />
+                  <img src="./assets/img/play-button-icon.png" alt=""
+                    class="md:w-16 w-10 absolute top-1/2 transform -translate-y-1/2 left-1/3">
+                </a>
+              </figure>
             </div>
-            <div class="px-4 md:w-1/2">
-              <p class="font-merriWeather md:text-lg text-sm">
-                'Checo' Perez y su llegada a Red Bull, Olimpico Gourmet y mas...
-              </p>
+            <div class="module__txt px-4 md:w-1/2">
+              <h2 class="font-merriWeather md:text-lg text-sm">
+                <a href="#">
+                  'Checo' Perez y su llegada a Red Bull, Olimpico Gourmet y mas...
+                </a>
+              </h2>
             </div>
           </div>
-          <div class="w-full flex items-start">
-            <div class="md:w-1/2 cursor-pointer relative">
-              <img src="https://picsum.photos/400/300" alt="" class="lg:hidden block" />
-              <img src="https://picsum.photos/300/170" alt="" class="lg:block hidden" />
-              <img src="./assets/img/play-button-icon.png" alt=""
-                class="md:w-16 w-10 absolute top-1/2 transform -translate-y-1/2 left-1/3">
+          <div class="module w-full flex pb-6 items-start">
+            <div class="md:w-1/2 w-auto cursor-pointer relative">
+              <figure class="module__video">
+                <a href="#">
+                  <img src="https://picsum.photos/400/300" alt="" class="lg:hidden block" />
+                  <img src="https://picsum.photos/300/170" alt="" class="lg:block hidden" />
+                  <img src="./assets/img/play-button-icon.png" alt=""
+                    class="md:w-16 w-10 absolute top-1/2 transform -translate-y-1/2 left-1/3">
+                </a>
+              </figure>
             </div>
-            <div class="px-4 md:w-1/2">
-              <p class="font-merriWeather md:text-lg text-sm">
-                'Checo' Perez y su llegada a Red Bull, Olimpico Gourmet y mas...
-              </p>
+            <div class="module__txt px-4 md:w-1/2">
+              <h2 class="font-merriWeather md:text-lg text-sm">
+                <a href="#">
+                  'Checo' Perez y su llegada a Red Bull, Olimpico Gourmet y mas...
+                </a>
+              </h2>
             </div>
           </div>
         </div>
@@ -640,141 +738,180 @@
     <div class="container mx-auto">
       <div class="flex flex-wrap items-start">
         <div class="xl:w-1/3 w-5/12 lg:flex hidden flex-wrap md:pb-36 pb-10 xl:pr-4 xl:pl-0 lg:pl-4">
-          <div class="w-full mb-20">
-            <img src="https://picsum.photos/300/150" alt="" class="w-full">
-            <p class="font-merriWeather text-lg mt-5">
-              Dispositivos vanguardistas reconoci-dos por facilitar nuestro estilo de vida
-            </p>
-            <p class="text-xs font-workSans my-3">
-              Por <span class="font-bold">Staff</span> | marzo 24, 2021
-            </p>
-            <p class="font-workSans font-bold text-xs">
-              en Mexico
-            </p>
+          <div class="module w-full mb-20">
+            <figure class="module__img">
+              <a href="#">
+                <img src="https://picsum.photos/300/150" alt="" class="w-full">
+              </a>
+            </figure>
+            <div class="module__txt font-merriWeather text-lg mt-5">
+              <h2>
+                <a href="#">
+                  Dispositivos vanguardistas reconoci-dos por facilitar nuestro estilo de vida
+                </a>
+              </h2>
+            </div>
+            <div class="module__metadata text-xs font-workSans mt-3">
+              Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+              <p class="font-bold mt-3">en Mexico</p>
+            </div>
           </div>
-          <div class="w-full">
-            <img src="https://picsum.photos/300/150" alt="" class="w-full">
-            <p class="font-merriWeather text-lg mt-5">
-              Habitos saludables: beneficos para tu estilo de vida
-            </p>
-            <p class="text-xs font-workSans my-3">
-              Por <span class="font-bold">Staff</span> | marzo 24, 2021
-            </p>
-            <p class="font-workSans font-bold text-xs">
-              en Mexico
-            </p>
+          <div class="module w-full">
+            <figure class="module__img">
+              <a href="#">
+                <img src="https://picsum.photos/300/150" alt="" class="w-full">
+              </a>
+            </figure>
+            <div class="module__txt font-merriWeather text-lg mt-5">
+              <h2>
+                <a href="#">
+                  Habitos saludables: beneficos para tu estilo de vida
+                </a>
+              </h2>
+            </div>
+            <div class="module__metadata text-xs font-workSans mt-3">
+              Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+              <p class="font-bold mt-3">en Mexico</p>
+            </div>
           </div>
         </div>
         <div class="xl:w-2/3 lg:w-7/12 w-full lg:border-l-2 xl:px-0 px-4">
           <div class="w-full">
-            <div class="w-full lg:pl-3 md:mb-4 mb-2">
-              <img src="https://picsum.photos/seed/picsum/600/250" alt="" class="w-full md:block hidden" />
-              <img src="https://picsum.photos/seed/picsum/600/350" alt="" class="w-full md:hidden block" />
-              <p class="font-merriWeather md:text-2xl text-center my-5 font-medium md:w-2/3 w-4/5 mx-auto">
-                Esto es Nissan. Reinvencion de la ingenieria automotriz
-              </p>
-              <p class="text-center text-xs font-workSans md:mt-0 mt-4">
-                Por <span class="font-bold">Staff</span> | marzo 24, 2021
-              </p>
-              <p class="font-workSans text-center font-bold text-xs mt-3">
-                en Mexico
-              </p>
+            <div class="module w-full lg:pl-3 md:mb-4 mb-2">
+              <figure class="module__img">
+                <a href="#">
+                  <img src="https://picsum.photos/seed/picsum/600/250" alt="" class="w-full md:block hidden" />
+                  <img src="https://picsum.photos/seed/picsum/600/350" alt="" class="w-full md:hidden block" />
+                </a>
+              </figure>
+              <div
+                class="module__txt font-merriWeather md:text-2xl text-center my-5 font-medium md:w-2/3 w-4/5 mx-auto">
+                <h2>
+                  <a href="#">
+                    Esto es Nissan. Reinvencion de la ingenieria automotriz
+                  </a>
+                </h2>
+              </div>
+              <div class="module__metadata text-center text-xs font-workSans md:mt-0 mt-4">
+                Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                <p class="font-bold mt-3">en Mexico</p>
+              </div>
             </div>
             <div class="w-full pl-4 pr-2 mb-4">
               <div class="h-0.5 bg-gray-300 w-full"></div>
             </div>
             <div class="w-full lg:flex hidden flex-wrap">
               <div class="lg:w-1/2 flex flex-wrap lg:border-r md:pl-4">
-                <div class="w-full flex mb-5">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex mb-5">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      Ikea abre su primera tienda en Mexico el 8 de abril
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="module__txt font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          Ikea abre su primera tienda en Mexico el 8 de abril
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">en Mexico</p>
+                    </div>
                   </div>
                 </div>
-                <div class="w-full flex">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      Jornada Notarial 2021: ¿sabias que puedes ahorrar...
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="module__txt font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          Jornada Notarial 2021: ¿sabias que puedes ahorrar...
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">en Mexico</p>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="lg:w-1/2 flex flex-wrap lg:pl-4">
-                <div class="w-full flex mb-5">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex mb-5">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      10 datos que debes saber sobre la vacuna...
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="module__txt font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          10 datos que debes saber sobre la vacuna...
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">en Mexico</p>
+                    </div>
                   </div>
                 </div>
-                <div class="w-full flex">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      Resumen de rumores de 2020: el DCEU...
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="module__txt font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          Resumen de rumores de 2020: el DCEU...
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">en Mexico</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="lg:hidden flex flex-wrap">
-              <div class="w-full">
-                <p class="font-merriWeather md:text-2xl">
-                  Resumen de rumores de 2020: el DCEU, Zack Snyder, Batman y mas
-                </p>
-                <p class="text-xs font-workSans my-3">
-                  Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                </p>
-                <p class="font-workSans font-bold text-xs">
-                  en Mexico
-                </p>
+              <div class="module w-full">
+                <div class="module__txt font-merriWeather md:text-2xl">
+                  <h2>
+                    <a href="#">
+                      Resumen de rumores de 2020: el DCEU, Zack Snyder, Batman y mas
+                    </a>
+                  </h2>
+                </div>
+                <div class="module__metadata text-xs font-workSans mt-3">
+                  Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                  <p class="font-bold mt-3">en Mexico</p>
+                </div>
               </div>
-              <div class="w-full my-10">
-                <p class="font-merriWeather md:text-2xl">
-                  Ikea abre su primera tienda en Mexico el 8 de abril
-                </p>
-                <p class="text-xs font-workSans my-3">
-                  Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                </p>
-                <p class="font-workSans font-bold text-xs">
-                  en Mexico
-                </p>
+              <div class="module w-full my-10">
+                <div class="module__txt font-merriWeather md:text-2xl">
+                  <h2>
+                    <a href="#">
+                      Ikea abre su primera tienda en Mexico el 8 de abril
+                    </a>
+                  </h2>
+                </div>
+                <div class="module__metadata text-xs font-workSans mt-3">
+                  Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                  <p class="font-bold mt-3">en Mexico</p>
+                </div>
               </div>
             </div>
           </div>
@@ -809,117 +946,145 @@
       <div class="flex flex-wrap items-start">
         <div class="xl:w-2/3 lg:w-7/12 w-full md:border-r-2 xl:px-0 px-4">
           <div class="w-full">
-            <div class="w-full md:pr-3 md:mb-4 mb-2">
-              <img src="https://picsum.photos/seed/picsum/600/250" alt="" class="w-full md:block hidden" />
-              <img src="https://picsum.photos/seed/picsum/600/350" alt="" class="w-full md:hidden block" />
-              <p class="font-merriWeather text-2xl text-center my-3 font-medium w-2/3 mx-auto md:block hidden">
-                ¿Tienes bitcoins? Ahora ya puedes comprar un auto de Tesla con esta criptomoneda
-              </p>
-              <p class="font-merriWeather text-center my-3 font-medium w-3/4 mx-auto md:hidden block">
-                Esto es Nissan. Reinvencion de la ingenieria automotriz
-              </p>
-              <p class="text-center text-xs font-workSans md:mt-0 mt-4">
-                Por <span class="font-bold">Staff</span> | marzo 24, 2021
-              </p>
-              <p class="font-workSans text-center font-bold text-xs mt-3">
-                en Mexico
-              </p>
+            <div class="module w-full md:pr-3 md:mb-4 mb-2">
+              <figure class="module__img">
+                <a href="#">
+                  <img src="https://picsum.photos/seed/picsum/600/250" alt="" class="w-full md:block hidden" />
+                  <img src="https://picsum.photos/seed/picsum/600/350" alt="" class="w-full md:hidden block" />
+                </a>
+              </figure>
+              <div class="module__txt">
+                <h2>
+                  <a href="#">
+                    <p class="font-merriWeather text-2xl text-center my-3 font-medium w-2/3 mx-auto md:block hidden">
+                      ¿Tienes bitcoins? Ahora ya puedes comprar un auto de Tesla con esta criptomoneda
+                    </p>
+                    <p class="font-merriWeather text-center my-3 font-medium w-3/4 mx-auto md:hidden block">
+                      Esto es Nissan. Reinvencion de la ingenieria automotriz
+                    </p>
+                  </a>
+                </h2>
+              </div>
+              <div class="module__metadata text-center text-xs font-workSans md:mt-0 mt-4">
+                Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                <p class="font-bold mt-3">en Mexico</p>
+              </div>
             </div>
             <div class="w-full pr-4 pl-2 mb-4">
               <div class="h-0.5 bg-gray-300 w-full"></div>
             </div>
             <div class="w-full lg:flex hidden flex-wrap">
               <div class="lg:w-1/2 flex flex-wrap lg:border-r">
-                <div class="w-full flex mb-5">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex mb-5">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      Mercedes Bens suspendera produccion...
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="module__txt font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          Mercedes Bens suspendera produccion...
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">en Mexico</p>
+                    </div>
                   </div>
                 </div>
-                <div class="w-full flex">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex">
+                  <figure class="module__img bg-red">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      GameStop cierra ultimo trimestre de 2020...
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="module__txt font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          GameStop cierra ulto trimestre de 2020...
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">en Mexico</p>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="lg:w-1/2 flex flex-wrap lg:pl-4">
-                <div class="w-full flex mb-5">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex mb-5">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      Renault fabricara 3 modelos hibridos en Espana
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="module__txt font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          Renault fabricara 3 hibridos en Espana
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">en Mexico</p>
+                    </div>
                   </div>
                 </div>
-                <div class="w-full flex">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      Pemex se centrara este ano en refinanciar...
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="module__txt font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          Pemex se centrara este ano en refina...
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">en Mexico</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="lg:hidden flex flex-wrap">
-              <div class="w-full">
-                <p class="font-merriWeather md:text-2xl">
-                  Mercedes Benz suspendera produccion en Brasil por pandemia
-                </p>
-                <p class="text-xs font-workSans my-3">
-                  Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                </p>
-                <p class="font-workSans font-bold text-xs">
-                  en Mexico
-                </p>
+              <div class="module w-full">
+                <div class="module__txt font-merriWeather md:text-2xl">
+                  <h2>
+                    <a href="#">
+                      Mercedes Benz suspendera produccion en Brasil por pandemia
+                    </a>
+                  </h2>
+                </div>
+                <div class="module__metadata text-xs font-workSans mt-3">
+                  Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                  <p class="font-bold mt-3">en Mexico</p>
+                </div>
               </div>
-              <div class="w-full my-10">
-                <p class="font-merriWeather md:text-2xl">
-                  Renault fabricara 3 modelos hibridos en Espana
-                </p>
-                <p class="text-xs font-workSans my-3">
-                  Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                </p>
-                <p class="font-workSans font-bold text-xs">
-                  en Mexico
-                </p>
+              <div class="module w-full my-10">
+                <div class="module__txt font-merriWeather md:text-2xl">
+                  <h2>
+                    <a href="#">
+                      Renault fabricara 3 modelos hibridos en Espana
+                    </a>
+                  </h2>
+                </div>
+                <div class="module__metadata text-xs font-workSans mt-3">
+                  Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                  <p class="font-bold mt-3">en Mexico</p>
+                </div>
               </div>
               <div class="w-full">
                 <button
@@ -932,29 +1097,41 @@
           </div>
         </div>
         <div class="xl:w-1/3 w-5/12 lg:flex hidden flex-wrap md:pb-36 pb-10 xl:pl-4 lg:px-4">
-          <div class="w-full mb-20">
-            <img src="https://picsum.photos/300/150" alt="" class="w-full">
-            <p class="font-merriWeather text-lg mt-5">
-              Slim va por recompra de acciones de America Movil con fondo de 25,000 mdp
-            </p>
-            <p class="text-xs font-workSans my-3">
-              Por <span class="font-bold">Staff</span> | marzo 24, 2021
-            </p>
-            <p class="font-workSans font-bold text-xs">
-              en Mexico
-            </p>
+          <div class="module w-full mb-20">
+            <figure class="module__img">
+              <a href="#">
+                <img src="https://picsum.photos/300/150" alt="" class="w-full">
+              </a>
+            </figure>
+            <div class="module__txt font-merriWeather text-lg mt-5">
+              <h2>
+                <a href="#">
+                  Slim va por recompra de acciones de America Movil con fondo de 25,000 mdp
+                </a>
+              </h2>
+            </div>
+            <div class="module__metadata text-xs font-workSans mt-3">
+              Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+              <p class="font-bold mt-3">en Mexico</p>
+            </div>
           </div>
-          <div class="w-full">
-            <img src="https://picsum.photos/300/150" alt="" class="w-full">
-            <p class="font-merriWeather text-lg mt-5">
-              Alberto Ciurana, ejecutivo de TV Azteca, muere de Covid-19
-            </p>
-            <p class="text-xs font-workSans my-3">
-              Por <span class="font-bold">Staff</span> | marzo 24, 2021
-            </p>
-            <p class="font-workSans font-bold text-xs">
-              en Mexico
-            </p>
+          <div class="module w-full">
+            <figure class="module__img">
+              <a href="#">
+                <img src="https://picsum.photos/300/150" alt="" class="w-full">
+              </a>
+            </figure>
+            <div class="module__txt font-merriWeather text-lg mt-5">
+              <h2>
+                <a href="#">
+                  Alberto Ciurana, ejecutivo de TV Azteca, muere de Covid-19
+                </a>
+              </h2>
+            </div>
+            <div class="module__metadata text-xs font-workSans mt-3">
+              Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+              <p class="font-bold mt-3">en Mexico</p>
+            </div>
           </div>
         </div>
       </div>
@@ -987,142 +1164,181 @@
     <div class="container mx-auto">
       <div class="flex flex-wrap items-start">
         <div class="xl:w-1/3 w-5/12 lg:flex hidden flex-wrap md:pb-36 pb-10 xl:pr-4 lg:pr-4">
-          <div class="w-full mb-20">
-            <img src="https://picsum.photos/300/150" alt="" class="w-full">
-            <p class="font-merriWeather text-lg mt-5">
-              Slim va por recompra de acciones de America Movil con fondo de 25,000 mdp
-            </p>
-            <p class="text-xs font-workSans my-3">
-              Por <span class="font-bold">Staff</span> | marzo 24, 2021
-            </p>
-            <p class="font-workSans font-bold text-xs">
-              en Mexico
-            </p>
+          <div class="module w-full mb-20">
+            <figure class="module__img">
+              <a href="#">
+                <img src="https://picsum.photos/300/150" alt="" class="w-full">
+              </a>
+            </figure>
+            <div class="module__txt font-merriWeather text-lg mt-5">
+              <h2>
+                <a href="#">
+                  Slim va por recompra de acciones de America Movil con fondo de 25,000 mdp
+                </a>
+              </h2>
+            </div>
+            <div class="module__metadata text-xs font-workSans mt-3">
+              Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+              <p class="font-bold mt-3">en Mexico</p>
+            </div>
           </div>
-          <div class="w-full">
-            <img src="https://picsum.photos/300/150" alt="" class="w-full">
-            <p class="font-merriWeather text-lg mt-5">
-              Forbes Mexico estrena Forbes Tech Future una plataforma, que seguira las principales tendencias de
-              tec-nologia, innovacio...
-            </p>
-            <p class="text-xs font-workSans my-3">
-              Por <span class="font-bold">Staff</span> | marzo 24, 2021
-            </p>
-            <p class="font-workSans font-bold text-xs">
-              en Mexico
-            </p>
+          <div class="module w-full">
+            <figure class="module__img">
+              <a href="#">
+                <img src="https://picsum.photos/300/150" alt="" class="w-full">
+              </a>
+            </figure>
+            <div class="module__txt font-merriWeather text-lg mt-5">
+              <h2>
+                <a href="#">
+                  Forbes Mexico estrena Forbes Tech Future una plataforma, que seguira las principales tendencias de
+                  tec-nologia, innovacio...
+                </a>
+              </h2>
+            </div>
+            <div class="module__metadata text-xs font-workSans mt-3">
+              Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+              <p class="font-bold mt-3">en Mexico</p>
+            </div>
           </div>
         </div>
         <div class="xl:w-2/3 lg:w-7/12 w-full md:border-l-2 xl:px-0 px-4">
           <div class="w-full">
-            <div class="w-full lg:pl-3 md:mb-4 mb-2">
-              <img src="https://picsum.photos/seed/picsum/600/250" alt="" class="w-full md:block hidden" />
-              <img src="https://picsum.photos/seed/picsum/600/350" alt="" class="w-full md:hidden block" />
-              <p class="font-merriWeather md:text-2xl text-center my-5 font-medium md:w-2/3 w-full mx-auto">
-                Terapia psicologica virtual, opcion de ayuda ante casos de ansiedad y depresion en pandemia
-              </p>
-              <p class="text-center text-xs font-workSans md:mt-0 mt-4">
-                Por <span class="font-bold">Staff</span> | marzo 24, 2021
-              </p>
-              <p class="font-workSans text-center font-bold text-xs mt-3">
-                en Mexico
-              </p>
+            <div class="module w-full lg:pl-3 md:mb-4 mb-2">
+              <figure class="module__img">
+                <a href="#">
+                  <img src="https://picsum.photos/seed/picsum/600/250" alt="" class="w-full md:block hidden" />
+                  <img src="https://picsum.photos/seed/picsum/600/350" alt="" class="w-full md:hidden block" />
+                </a>
+              </figure>
+              <div
+                class="module__txt font-merriWeather md:text-2xl text-center my-5 font-medium md:w-2/3 w-full mx-auto">
+                <h2>
+                  <a href="#">
+                    Terapia psicologica virtual, opcion de ayuda ante casos de ansiedad y depresion en pandemia
+                  </a>
+                </h2>
+              </div>
+              <div class="module__metadata text-center text-xs font-workSans md:mt-0 mt-4">
+                Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                <p class="font-bold mt-3">en Mexico</p>
+              </div>
             </div>
             <div class="w-full pl-4 pr-2 mb-4">
               <div class="h-0.5 bg-gray-300 w-full"></div>
             </div>
             <div class="w-full lg:flex hidden flex-wrap">
               <div class="lg:w-1/2 flex flex-wrap lg:border-r md:pl-4">
-                <div class="w-full flex mb-5">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex mb-5">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      Nokia yTV Azteca concluy-en prueba de 5g...
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="module__txt font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          Nokia yTV Azteca concluy-en prueba de 5g...
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">en Mexico</p>
+                    </div>
                   </div>
                 </div>
-                <div class="w-full flex">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      Telegram planta cara a Clubhouse con...
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="module__txt font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          Telegram planta cara a Clubhouse con...
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">en Mexico</p>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="lg:w-1/2 flex flex-wrap lg:pl-4">
-                <div class="w-full flex mb-5">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex mb-5">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      Gamers crecen 5.5% en Mexico impulsados...
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="module__txt font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          Gamers crecen 5.5% en Mexico impulsados...
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">en Mexico</p>
+                    </div>
                   </div>
                 </div>
-                <div class="w-full flex">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      Musica alivia tristeza en la pandemia y logra...
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="module__txt font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          Musica alivia tristeza en la pandemia y logra...
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">en Mexico</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="lg:hidden flex flex-wrap">
-              <div class="w-full">
-                <p class="font-merriWeather md:text-2xl">
-                  Telegram planta cara a Clubhouse con su chat de voz reforzado
-                </p>
-                <p class="text-xs font-workSans my-3">
-                  Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                </p>
-                <p class="font-workSans font-bold text-xs">
-                  en Mexico
-                </p>
+              <div class="module w-full">
+                <div class="module__txt font-merriWeather md:text-2xl">
+                  <h2>
+                    <a href="#">
+                      Telegram planta cara a Clubhouse con su chat de voz reforzado
+                    </a>
+                  </h2>
+                </div>
+                <div class="module__metadata text-xs font-workSans mt-3">
+                  Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                  <p class="font-bold mt-3">en Mexico</p>
+                </div>
               </div>
-              <div class="w-full my-10">
-                <p class="font-merriWeather md:text-2xl">
-                  Nokia y TV Azteca concluyen prueba de 5g en transmission de TV
-                </p>
-                <p class="text-xs font-workSans my-3">
-                  Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                </p>
-                <p class="font-workSans font-bold text-xs">
-                  en Mexico
-                </p>
+              <div class="module w-full my-10">
+                <div class="module__txt font-merriWeather md:text-2xl">
+                  <h2>
+                    <a href="#">
+                      Nokia y TV Azteca concluyen prueba de 5g en transmission de TV
+                    </a>
+                  </h2>
+                </div>
+                <div class="module__metadata text-xs font-workSans mt-3">
+                  Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                  <p class="font-bold mt-3">en Mexico</p>
+                </div>
               </div>
               <div class="w-full">
                 <button
@@ -1154,114 +1370,141 @@
       <div class="flex flex-wrap items-start">
         <div class="xl:w-2/3 lg:w-7/12 w-full md:border-r-2 xl:px-0 px-4">
           <div class="w-full">
-            <div class="w-full md:pr-3 md:mb-4 mb-2">
-              <img src="https://picsum.photos/seed/picsum/600/250" alt="" class="w-full md:block hidden" />
-              <img src="https://picsum.photos/seed/picsum/600/350" alt="" class="w-full md:hidden block" />
-              <p class="font-merriWeather md:text-2xl text-center my-3 font-medium md:w-2/3 w-full mx-auto">
-                AMLO elogia modelo economico de Bolivia con Evo Morales
-              </p>
-              <p class="text-center text-xs font-workSans md:mt-0 mt-4">
-                Por <span class="font-bold">Staff</span> | marzo 24, 2021
-              </p>
-              <p class="font-workSans text-center font-bold text-xs mt-3">
-                en Mexico
-              </p>
+            <div class="module w-full md:pr-3 md:mb-4 mb-2">
+              <figure class="module__img">
+                <a href="#">
+                  <img src="https://picsum.photos/seed/picsum/600/250" alt="" class="w-full md:block hidden" />
+                  <img src="https://picsum.photos/seed/picsum/600/350" alt="" class="w-full md:hidden block" />
+                </a>
+              </figure>
+              <div
+                class="module__txt font-merriWeather md:text-2xl text-center my-3 font-medium md:w-2/3 w-full mx-auto">
+                <h2>
+                  <a href="#">
+                    AMLO elogia modelo economico de Bolivia con Evo Morales
+                  </a>
+                </h2>
+              </div>
+              <div class="module__metadata text-center text-xs font-workSans md:mt-0 mt-4">
+                Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                <p class="font-bold mt-3">en Mexico</p>
+              </div>
             </div>
             <div class="w-full pr-4 pl-2 mb-4">
               <div class="h-0.5 bg-gray-300 w-full"></div>
             </div>
             <div class="w-full lg:flex hidden flex-wrap">
               <div class="lg:w-1/2 flex flex-wrap lg:border-r">
-                <div class="w-full flex mb-5">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex mb-5">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      Mexico y EU discuten mi-gracion ordenada...
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="module__txt font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          Mexico y EU discuten mi-gracion ordenada...
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">en Mexico</p>
+                    </div>
                   </div>
                 </div>
-                <div class="w-full flex">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      Mexico y EU discuten mi-gracion ordenada...
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="module__txt font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          Mexico y EU discuten mi-gracion ordenada...
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">en Mexico</p>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="lg:w-1/2 flex flex-wrap lg:pl-4">
-                <div class="w-full flex mb-5">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex mb-5">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      Mexico y EU discuten mi-gracion ordenada...
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="module__txt font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          Mexico y EU discuten mi-gracion ordenada...
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">en Mexico</p>
+                    </div>
                   </div>
                 </div>
-                <div class="w-full flex">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      Mexico y EU discuten mi-gracion ordenada...
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="module__txt font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          Mexico y EU discuten mi-gracion ordenada...
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">en Mexico</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="lg:hidden flex flex-wrap">
-              <div class="w-full">
-                <p class="font-merriWeather md:text-2xl">
-                  Mexico y EU discuten migracion ordenada, segura y regular
-                </p>
-                <p class="text-xs font-workSans my-3">
-                  Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                </p>
-                <p class="font-workSans font-bold text-xs">
-                  en Mexico
-                </p>
+              <div class="module w-full">
+                <div class="module__txt font-merriWeather md:text-2xl">
+                  <h2>
+                    <a href="#">
+                      Mexico y EU discuten migracion ordenada, segura y regular
+                    </a>
+                  </h2>
+                </div>
+                <div class="module__metadata text-xs font-workSans mt-3">
+                  Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                  <p class="font-bold mt-3">en Mexico</p>
+                </div>
               </div>
-              <div class="w-full my-10">
-                <p class="font-merriWeather md:text-2xl">
-                  SCT borra queja de Arganis sobre inge-nieros militares y obras publicas
-                </p>
-                <p class="text-xs font-workSans my-3">
-                  Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                </p>
-                <p class="font-workSans font-bold text-xs">
-                  en Mexico
-                </p>
+              <div class="module w-full my-10">
+                <div class="module__txt font-merriWeather md:text-2xl">
+                  <h2>
+                    <a href="#">
+                      SCT borra queja de Arganis sobre inge-nieros militares y obras publicas
+                    </a>
+                  </h2>
+                </div>
+                <div class="module__metadata text-xs font-workSans mt-3">
+                  Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                  <p class="font-bold mt-3">en Mexico</p>
+                </div>
               </div>
               <div class="w-full">
                 <button
@@ -1274,29 +1517,41 @@
           </div>
         </div>
         <div class="xl:w-1/3 w-5/12 lg:flex hidden flex-wrap md:pb-36 pb-10 xl:pl-4 lg:px-4">
-          <div class="w-full mb-20">
-            <img src="https://picsum.photos/300/150" alt="" class="w-full">
-            <p class="font-merriWeather text-lg mt-5">
-              Slim va por recompra de acciones de America Movil con fondo de 25,000 mdp
-            </p>
-            <p class="text-xs font-workSans my-3">
-              Por <span class="font-bold">Staff</span> | marzo 24, 2021
-            </p>
-            <p class="font-workSans font-bold text-xs">
-              en Mexico
-            </p>
+          <div class="module w-full mb-20">
+            <figure class="module__img">
+              <a href="#">
+                <img src="https://picsum.photos/300/150" alt="" class="w-full">
+              </a>
+            </figure>
+            <div class="module__txt font-merriWeather text-lg mt-5">
+              <h2>
+                <a href="#">
+                  Slim va por recompra de acciones de America Movil con fondo de 25,000 mdp
+                </a>
+              </h2>
+            </div>
+            <div class="module__metadata text-xs font-workSans mt-3">
+              Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+              <p class="font-bold mt-3">en Mexico</p>
+            </div>
           </div>
-          <div class="w-full">
-            <img src="https://picsum.photos/300/150" alt="" class="w-full">
-            <p class="font-merriWeather text-lg mt-5">
-              Alberto Ciurana, ejecutivo de TV Azteca, muere de Covid-19
-            </p>
-            <p class="text-xs font-workSans my-3">
-              Por <span class="font-bold">Staff</span> | marzo 24, 2021
-            </p>
-            <p class="font-workSans font-bold text-xs">
-              en Mexico
-            </p>
+          <div class="module w-full">
+            <figure class="module__img">
+              <a href="#">
+                <img src="https://picsum.photos/300/150" alt="" class="w-full">
+              </a>
+            </figure>
+            <div class="module__txt font-merriWeather text-lg mt-5">
+              <h2>
+                <a href="#">
+                  Alberto Ciurana, ejecutivo de TV Azteca, muere de Covid-19
+                </a>
+              </h2>
+            </div>
+            <div class="module__metadata text-xs font-workSans mt-3">
+              Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+              <p class="font-bold mt-3">en Mexico</p>
+            </div>
           </div>
         </div>
       </div>
@@ -1319,141 +1574,179 @@
     <div class="container mx-auto">
       <div class="flex flex-wrap items-start">
         <div class="xl:w-1/3 w-5/12 lg:flex hidden flex-wrap md:pb-36 pb-10 xl:px-0 xl:pr-4 lg:px-4">
-          <div class="w-full mb-20">
-            <img src="https://picsum.photos/300/150" alt="" class="w-full">
-            <p class="font-merriWeather text-lg mt-5">
-              Inflacion sube 4.12% en la primera quincena de marzo, el mayor nivel en casi 2 anso
-            </p>
-            <p class="text-xs font-workSans my-3">
-              Por <span class="font-bold">Staff</span> | marzo 24, 2021
-            </p>
-            <p class="font-workSans font-bold text-xs">
-              en Mexico
-            </p>
+          <div class="module w-full mb-20">
+            <figure class="module__img">
+              <a href="#">
+                <img src="https://picsum.photos/300/150" alt="" class="w-full">
+              </a>
+            </figure>
+            <div class="module__txt font-merriWeather text-lg mt-5">
+              <h2>
+                <a href="#">
+                  Inflacion sube 4.12% en la primera quincena de marzo, el mayor nivel en casi 2 anso
+                </a>
+              </h2>
+            </div>
+            <div class="module__metadata text-xs font-workSans mt-3">
+              Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+              <p class="font-bold mt-3">en Mexico</p>
+            </div>
           </div>
-          <div class="w-full">
-            <img src="https://picsum.photos/300/150" alt="" class="w-full">
-            <p class="font-merriWeather text-lg mt-5">
-              Bitcoin, Tesla, GameStop y otras senales de que la recuperacion de mercados sera las mas rapida de la historia
-            </p>
-            <p class="text-xs font-workSans my-3">
-              Por <span class="font-bold">Staff</span> | marzo 24, 2021
-            </p>
-            <p class="font-workSans font-bold text-xs">
-              en Mexico
-            </p>
+          <div class="module w-full">
+            <figure class="module__img">
+              <a href="#">
+                <img src="https://picsum.photos/300/150" alt="" class="w-full">
+              </a>
+            </figure>
+            <div class="module__txt font-merriWeather text-lg mt-5">
+              <h2>
+                <a href="#">
+                  Bitcoin, Tesla, GameStop y otras senales de que la recuperacion de mercados sera las mas rapida de la
+                  historia
+                </a>
+              </h2>
+            </div>
+            <div class="module__metadata text-xs font-workSans mt-3">
+              Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+              <p class="font-bold mt-3">en Mexico</p>
+            </div>
           </div>
         </div>
         <div class="xl:w-2/3 lg:w-7/12 w-full md:border-l-2 xl:px-0 px-4">
           <div class="w-full">
-            <div class="w-full lg:pl-3 md:mb-4 mb-2">
-              <img src="https://picsum.photos/seed/picsum/600/250" alt="" class="w-full md:block hidden" />
-              <img src="https://picsum.photos/seed/picsum/600/350" alt="" class="w-full md:hidden block" />
-              <p class="font-merriWeather md:text-2xl text-center my-5 font-medium md:w-2/3 w-full mx-auto">
-                Mexico, de nuevo fuera de las 25 economias mas atractivas para invertir
-              </p>
-              <p class="text-center text-xs font-workSans md:mt-0 mt-4">
+            <div class="module w-full lg:pl-3 md:mb-4 mb-2">
+              <figure class="module__img">
+                <img src="https://picsum.photos/seed/picsum/600/250" alt="" class="w-full md:block hidden" />
+                <img src="https://picsum.photos/seed/picsum/600/350" alt="" class="w-full md:hidden block" />
+              </figure>
+              <div
+                class="module__txt font-merriWeather md:text-2xl text-center my-5 font-medium md:w-2/3 w-full mx-auto">
+                <h2>
+                  <a href="#">
+                    Mexico, de nuevo fuera de las 25 economias mas atractivas para invertir
+                  </a>
+                </h2>
+              </div>
+              <div class="module__metadata text-center text-xs font-workSans md:mt-0 mt-4">
                 Por <span class="font-bold">Staff</span> | marzo 24, 2021
-              </p>
-              <p class="font-workSans text-center font-bold text-xs mt-3">
-                en Mexico
-              </p>
+                <p class="font-bold mt-3">en Mexico</p>
+              </div>
             </div>
             <div class="w-full pl-4 pr-2 mb-4">
               <div class="h-0.5 bg-gray-300 w-full"></div>
             </div>
             <div class="w-full lg:flex hidden flex-wrap">
               <div class="lg:w-1/2 flex flex-wrap lg:border-r md:pl-4">
-                <div class="w-full flex mb-5">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex mb-5">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      SHCP preve 300,000 mdp de ingresos adicionales...
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="module__txt font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          SHCP preve 300,000 mdp de ingresos adicionales...
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">en Mexico</p>
+                    </div>
                   </div>
                 </div>
-                <div class="w-full flex">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      Economia podria crecer 'facilmente' mas de 5%...
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="module__txt font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          Economia podria crecer 'facilmente' mas de 5%...
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">en Mexico</p>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="lg:w-1/2 flex flex-wrap lg:pl-4">
-                <div class="w-full flex mb-5">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex mb-5">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      Actividad economica de Mexico se contrae 4%...
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="module__txt font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          Actividad economica de Mexico se contrae 4%...
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">en Mexico</p>
+                    </div>
                   </div>
                 </div>
-                <div class="w-full flex">
-                  <div>
-                    <img src="https://picsum.photos/200" alt="" />
-                  </div>
+                <div class="module w-full flex">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/200" alt="" />
+                    </a>
+                  </figure>
                   <div class="xl:px-8 px-4">
-                    <p class="font-merriWeather">
-                      Tren del Istmo se conectara con Guatemala...
-                    </p>
-                    <p class="text-xs font-workSans my-3">
-                      Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                    </p>
-                    <p class="font-workSans font-bold text-xs">
-                      en Mexico
-                    </p>
+                    <div class="module__txt font-merriWeather">
+                      <h2>
+                        <a href="#">
+                          Tren del Istmo se conectara con Guatemala...
+                        </a>
+                      </h2>
+                    </div>
+                    <div class="module__metadata text-xs font-workSans mt-3">
+                      Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                      <p class="font-bold mt-3">en Mexico</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="lg:hidden flex flex-wrap">
-              <div class="w-full">
-                <p class="font-merriWeather md:text-2xl">
-                  SHCP preve 300,000 mdp de ingresos adicionales con altos precios del petroleo
-                </p>
-                <p class="text-xs font-workSans my-3">
-                  Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                </p>
-                <p class="font-workSans font-bold text-xs">
-                  en Mexico
-                </p>
+              <div class="module w-full">
+                <div class="module__txt font-merriWeather md:text-2xl">
+                  <h2>
+                    <a href="#">
+                      SHCP preve 300,000 mdp de ingresos adicionales con altos precios del petroleo
+                    </a>
+                  </h2>
+                </div>
+                <div class="module__metadata text-xs font-workSans mt-3">
+                  Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                  <p class="font-bold mt-3">en Mexico</p>
+                </div>
               </div>
-              <div class="w-full my-10">
-                <p class="font-merriWeather md:text-2xl">
-                  Actividad economica de Mexico se contrae 4% en febrero, estima Inegi
-                </p>
-                <p class="text-xs font-workSans my-3">
-                  Por <span class="font-bold">Staff</span> | marzo 24, 2021
-                </p>
-                <p class="font-workSans font-bold text-xs">
-                  en Mexico
-                </p>
+              <div class="module w-full my-10">
+                <div class="module__txt font-merriWeather md:text-2xl">
+                  <h2>
+                    <a href="#">
+                      Actividad economica de Mexico se contrae 4% en febrero, estima Inegi
+                    </a>
+                  </h2>
+                </div>
+                <div class="module__metadata text-xs font-workSans mt-3">
+                  Por <span class="font-bold">Staff</span> | <date>marzo 24, 2021</date>
+                  <p class="font-bold mt-3">en Mexico</p>
+                </div>
               </div>
               <div class="w-full">
                 <button

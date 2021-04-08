@@ -44,6 +44,7 @@ module.exports = {
       },
       width: {
         "nav-width": "40%",
+        "100px": "6.25rem" 
       },
       fontSize: {
         "1xl": "1.375rem",
