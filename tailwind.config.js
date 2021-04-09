@@ -31,7 +31,8 @@ module.exports = {
         blue: {
           DEFAULT: '#5193CA',
           dark: '#126DB7',
-          light: '#1F8FA1'
+          light: '#1F8FA1',
+          medium: '#607AAA'
         },
         orange: {
           DEFAULT: '#C98255',
@@ -45,6 +46,9 @@ module.exports = {
       width: {
         "nav-width": "40%",
         "100px": "6.25rem" 
+      },
+      height: {
+        '550': "550px"
       },
       fontSize: {
         "1xl": "1.375rem",

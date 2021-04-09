@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>TailwindCSS-PostCSS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
+    />
+    <link href="./assets/css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body class="min-h-screen bg-gray-50 overflow-x-hidden">
+    <!-- Main Navbar -->
+    <header class="h-14 bg-black flex items-center px-5">
+      <div>
+        <a href="#">
+          <span class="bg-white h-1 w-10 block"></span>
+          <span class="bg-white h-1 w-10 my-1 block"></span>
+          <span class="bg-white h-1 w-10 block"></span>
+        </a>
+      </div>
+      <div class="w-full flex justify-center">
+        <h1 class="text-4xl uppercase text-white font-sans">logo</h1>
+      </div>
+      <div>
+        <a href="#">
+          <i class="fas fa-search text-white text-2xl"></i>
+        </a>
+      </div>
+    </header>
+    <!-- Main Navbar ends -->
+
+    <!-- Sub navbar -->
+    <nav class="w-full flex justify-center">
+      <ul
+        class="xl:w-nav-width lg:w-1/2 md:w-2/3 w-full bg-nav flex justify-evenly pb-3 p-2 md:rounded-b-2xl"
+      >
+        <li>
+          <a
+            href="#"
+            class="uppercase text-white font-workSans font-medium md:text-sm text-xss truncate cursor-pointer"
+            >mexico</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="uppercase text-white font-workSans font-medium md:text-sm text-xss truncate cursor-pointer"
+            >colombia</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="uppercase text-white font-workSans font-medium md:text-sm text-xss truncate cursor-pointer"
+            >peru</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="uppercase text-white font-workSans font-medium md:text-sm text-xss truncate cursor-pointer"
+            >chile</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="uppercase text-white font-workSans font-medium md:text-sm text-xss truncate cursor-pointer"
+            >centroamerica</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="uppercase text-white font-workSans font-medium md:text-sm text-xss truncate cursor-pointer"
+            >rep. deminicana</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!-- Sub navbar ends -->
+
+    <!-- Section for ad -->
+    <section class="container mx-auto mt-6 md:mb-14 mb-8 xl:px-0 px-4">
+      <div class="flex">
+        <div
+          class="lg:w-2/3 md:w-3/4 w-full bg-blue-600 md:h-32 h-10 mx-auto"
+        ></div>
+      </div>
+    </section>
+    <!-- Section for ad ends -->
+
+    <!-- Search section -->
+    <section class="min-h-screen xl:px-0 px-4 md:mt-16 mb-16">
+      <div class="container mx-auto">
+        <div class="flex flex-wrap items-start">
+          <div class="lg:w-2/3 w-full">
+            <div class="flex items-center border-b-2 border-black py-2">
+              <div class="flex items-center flex-1">
+                <div class="md:mr-3 mr-2 md:mt-1">
+                  <i class="fas fa-search md:text-3xl text-sm"></i>
+                </div>
+                <input
+                  type="text"
+                  placeholder="Bitcoin"
+                  class="bg-transparent outline-none focus:outline-none md:text-5xl text-xl font-workSans flex-1 text-black placeholder-black"
+                />
+              </div>
+              <div>
+                <button
+                  class="flex items-center font-workSans outline-none focus:outline-none bg-transparent md:text-xl text-gray-500"
+                >
+                  <span>Buscar</span>
+                  <i class="fas fa-chevron-right mt-1 text-base mx-3"></i>
+                </button>
+              </div>
+            </div>
+            <div class="flex w-full py-2 items-center border-b border-black">
+              <h2 class="font-workSans text-lg mr-5">
+                <a href="#">Más Relevante </a>
+              </h2>
+              <h2 class="font-workSans text-lg text-gray-500">
+                <a href="#">Más Reciente</a>
+              </h2>
+            </div>
+
+            <div class="flex flex-wrap mt-14">
+              <div
+                class="module flex flex-wrap w-full items-start border-b border-black pb-6 mb-10"
+              >
+                <div
+                  class="md:w-2/3 w-full md:order-first order-last md:mt-0 mt-5 md:text-left text-center"
+                >
+                  <span class="font-workSans text-sm">ECONOMÍA Y FINANZAS</span>
+                  <div class="module__txt font-merriWeather md:text-xl my-2">
+                    <h2>
+                      <a href="#">
+                        Caída de Bitcoin borra 100 mil mdd de su valor en 24
+                        horas; ¿Cuánto durará el baño de sangre?
+                      </a>
+                    </h2>
+                  </div>
+                  <div class="module__metadata text-xs font-workSans mt-3">
+                    Por <span class="font-bold">Staff</span> |
+                    <date>marzo 24, 2021</date>
+                    <p class="font-bold mt-2">en Mexico</p>
+                  </div>
+                  <p class="font-merriWeather md:text-sm mt-5">
+                    El jueves por la mañana, el precio de bitcoin se desplomaba
+                    9.4% en comparación lo que redujo su capitalización de
+                    merca...
+                  </p>
+                </div>
+                <div class="md:w-1/3 w-full">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/400/200" alt="" />
+                    </a>
+                  </figure>
+                </div>
+              </div>
+              <div
+                class="module flex flex-wrap w-full items-start border-b border-black pb-6 mb-10"
+              >
+                <div
+                  class="md:w-2/3 w-full md:order-first order-last md:mt-0 mt-5 md:text-left text-center"
+                >
+                  <span class="font-workSans text-sm">ACTUALIDAD</span>
+                  <div class="module__txt font-merriWeather md:text-xl my-2">
+                    <h2>
+                      <a href="#">
+                        El bitcoin puede prosperar como reserva de valor:
+                        Scaramucci de SkyBridge
+                      </a>
+                    </h2>
+                  </div>
+                  <div class="module__metadata text-xs font-workSans mt-3">
+                    Por <span class="font-bold">Staff</span> |
+                    <date>marzo 24, 2021</date>
+                    <p class="font-bold mt-2">en Mexico</p>
+                  </div>
+                  <p class="font-merriWeather md:text-sm mt-5">
+                    A principios de año, SkyBridge lanzó un fondo bitcóin con
+                    310 millones de dólares en activos bajo gestión.
+                  </p>
+                </div>
+                <div class="md:w-1/3 w-full">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/400/200" alt="" />
+                    </a>
+                  </figure>
+                </div>
+              </div>
+              <div
+                class="module flex flex-wrap w-full items-start border-b border-black pb-6 mb-10"
+              >
+                <div
+                  class="md:w-2/3 w-full md:order-first order-last md:mt-0 mt-5 md:text-left text-center"
+                >
+                  <span class="font-workSans text-sm">NEGOCIOS</span>
+                  <div class="module__txt font-merriWeather md:text-xl my-2">
+                    <h2>
+                      <a href="#">
+                        ¿Tienes bitcoins? Ahora ya puedes comprar un auto de
+                        Tesla con esta criptomoneda
+                      </a>
+                    </h2>
+                  </div>
+                  <div class="module__metadata text-xs font-workSans mt-3">
+                    Por <span class="font-bold">Staff</span> |
+                    <date>marzo 24, 2021</date>
+                    <p class="font-bold mt-2">en Mexico</p>
+                  </div>
+                  <p class="font-merriWeather md:text-sm mt-5">
+                    El bitcoin es poco usado para el comercio en las principales
+                    economías, Tesla ya había anunciado que lo aceptaría como
+                    f...
+                  </p>
+                </div>
+                <div class="md:w-1/3 w-full">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/400/200" alt="" />
+                    </a>
+                  </figure>
+                </div>
+              </div>
+              <div
+                class="module flex flex-wrap w-full items-start border-b border-black pb-6 mb-10"
+              >
+                <div
+                  class="md:w-2/3 w-full md:order-first order-last md:mt-0 mt-5 md:text-left text-center"
+                >
+                  <span class="font-workSans text-sm">ECONOMÍA Y FINANZAS</span>
+                  <div class="module__txt font-merriWeather md:text-xl my-2">
+                    <h2>
+                      <a href="#">
+                        Bitcoin, Tesla, GameStop y otras señales de que la
+                        recuperación de mercados será las más rápida de la
+                        historia
+                      </a>
+                    </h2>
+                  </div>
+                  <div class="module__metadata text-xs font-workSans mt-3">
+                    Por <span class="font-bold">Staff</span> |
+                    <date>marzo 24, 2021</date>
+                    <p class="font-bold mt-2">en Mexico</p>
+                  </div>
+                  <p class="font-merriWeather md:text-sm mt-5">
+                    El caso GameStop, el valor de Tesla y el crecimiento sin
+                    freno del Bitcoin, son ejemplos, de que los mercados
+                    recuperán...
+                  </p>
+                </div>
+                <div class="md:w-1/3 w-full">
+                  <figure class="module__img">
+                    <a href="#">
+                      <img src="https://picsum.photos/400/200" alt="" />
+                    </a>
+                  </figure>
+                </div>
+              </div>
+            </div>
+
+            <div class="w-full flex justify-center items-center my-10">
+              <button
+                class="px-8 py-4 border-black border-2 bg-transparent outline-none focus:outline-none"
+              >
+                Más artículos
+              </button>
+            </div>
+
+            <!-- Recomendations area -->
+            <div class="w-full md:flex hidden flex-wrap">
+              <div class="w-full my-4">
+                <h1 class="font-workSans text-3xl">Recomendados</h1>
+              </div>
+              <div
+                class="w-full flex items-start border-b border-black pb-2 mb-4"
+              >
+                <img src="https://picsum.photos/100/60" alt="" />
+                <p class="font-workSans text-xl flex-1 pl-10">
+                  ¿Tu deuda con Infonavit sube y sube? Mira cómo solucionarlo
+                </p>
+                <button
+                  class="outline-none focus:outline-none bg-transparent text-gray-500"
+                >
+                  <a href="#">
+                    <i class="fas fa-chevron-right"></i>
+                  </a>
+                </button>
+              </div>
+              <div
+                class="w-full flex items-start border-b border-black pb-2 mb-4"
+              >
+                <img src="https://picsum.photos/100/60" alt="" />
+                <p class="font-workSans text-xl flex-1 pl-10">
+                  Esfuerzos por desbloquear Canal de Suez aumentan
+                </p>
+                <button
+                  class="outline-none focus:outline-none bg-transparent text-gray-500"
+                >
+                  <a href="#">
+                    <i class="fas fa-chevron-right"></i>
+                  </a>
+                </button>
+              </div>
+              <div
+                class="w-full flex items-start border-b border-black pb-2 mb-4"
+              >
+                <img src="https://picsum.photos/100/60" alt="" />
+                <p class="font-workSans text-xl flex-1 pl-10">
+                  Conacyt lanza convocatoria para beca Madres mexicanas 2021
+                </p>
+                <button
+                  class="outline-none focus:outline-none bg-transparent text-gray-500"
+                >
+                  <a href="#">
+                    <i class="fas fa-chevron-right"></i>
+                  </a>
+                </button>
+              </div>
+              <div
+                class="w-full flex items-start border-b border-black pb-2 mb-4"
+              >
+                <img src="https://picsum.photos/100/60" alt="" />
+                <p class="font-workSans text-xl flex-1 pl-10">
+                  Fotogalería: La importancia del Canal de Suez
+                </p>
+                <button
+                  class="outline-none focus:outline-none bg-transparent text-gray-500"
+                >
+                  <a href="#">
+                    <i class="fas fa-chevron-right"></i>
+                  </a>
+                </button>
+              </div>
+            </div>
+            <!-- Recomendations area ends -->
+
+            <!-- Mobile bottom ad -->
+            <div class="bg-red-500 h-screen md:hidden block"></div>
+            <!-- Mobile bottom ad ends -->
+          </div>
+          <!-- Ad Area -->
+          <div class="lg:block hidden w-1/3 pl-10">
+            <div class="h-550 bg-red-500"></div>
+          </div>
+          <!-- Ad area ends -->
+        </div>
+      </div>
+    </section>
+    <!-- Search section ends -->
+
+    <!--Bottom ad -->
+    <div class="w-full bg-red-50 md:flex hidden h-56 py-4">
+      <div class="w-2/3 mx-auto h-full bg-green"></div>
+    </div>
+    <!--Bottom ad ends -->
+
+    <!-- Footer -->
+    <footer class="bg-footer w-full pt-6 md:px-10 px-5 md:pb-20 pb-10">
+      <div class="flex flex-wrap">
+        <div class="w-full flex md:justify-end justify-center mt-5 mb-8">
+          <ul class="flex items-center">
+            <li class="cursor-pointer md:mr-10 mr-5">
+              <a href="#" class="text-white">
+                <i class="fab fa-facebook-f font-bold md:text-2xl"></i>
+              </a>
+            </li>
+            <li class="cursor-pointer md:mr-10 mr-5">
+              <a href="#" class="text-white">
+                <i class="fab fa-twitter font-bold md:text-2xl"></i>
+              </a>
+            </li>
+            <li class="cursor-pointer md:mr-10 mr-5">
+              <a href="#" class="text-white">
+                <i class="fab fa-instagram font-bold md:text-2xl"></i>
+              </a>
+            </li>
+            <li class="cursor-pointer md:mr-10 mr-5">
+              <a href="#" class="text-white">
+                <i class="fab fa-pinterest font-bold md:text-2xl"></i>
+              </a>
+            </li>
+            <li class="cursor-pointer md:mr-10 mr-5">
+              <a href="#" class="text-white">
+                <i class="fab fa-linkedin-in font-bold md:text-2xl"></i>
+              </a>
+            </li>
+            <li class="cursor-pointer md:mr-10 mr-5">
+              <a href="#" class="text-white">
+                <i class="fas fa-wifi font-bold md:text-2xl"></i>
+              </a>
+            </li>
+            <li class="cursor-pointer">
+              <a href="#" class="text-white">
+                <i class="fab fa-youtube font-bold md:text-2xl"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="w-full border-b border-white border-t py-4 flex md:flex-nowrap flex-wrap justify-evenly"
+        >
+          <div class="md:w-auto w-full md:text-left text-center">
+            <a
+              href="#"
+              class="text-white font-workSans font-light md:text-xl text-sm"
+            >
+              Directorio
+            </a>
+          </div>
+          <div class="md:w-auto w-full md:text-left text-center">
+            <a
+              href="#"
+              class="text-white font-workSans font-light md:text-xl text-sm"
+            >
+              Media Kit
+            </a>
+          </div>
+          <div class="md:w-auto w-full md:text-left text-center">
+            <a
+              href="#"
+              class="text-white font-workSans font-light md:text-xl text-sm"
+            >
+              Aviso de Privacidad
+            </a>
+          </div>
+          <div class="md:w-auto w-full md:text-left text-center">
+            <a
+              href="#"
+              class="text-white font-workSans font-light md:text-xl text-sm"
+            >
+              Declaracion de Accesibilidad
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer ends -->
+
+    <script src="./assets/js/app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/ede2fe071e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
